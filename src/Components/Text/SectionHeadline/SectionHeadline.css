@@ -1,0 +1,21 @@
+.SectionHeadline {
+  margin: 100px auto 10px auto;
+  font-family: "Staatliches", cursive;
+  font-size: 4em;
+  text-align: center;
+}
+
+.SectionHeadline::before {
+  content: url("../../../assets/united-cheer-sports-icon.svg");
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+.SectionSubline {
+  margin-bottom: 70px;
+  line-height: 1.3em;
+  font-size: 1.05em;
+  text-align: center;
+  letter-spacing: 0.5px;
+}

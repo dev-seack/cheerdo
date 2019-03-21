@@ -1,0 +1,138 @@
+#instafeed {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3.5em;
+}
+
+#instafeed .instafeedPost {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#instafeed .instafeedPost .instafeedImage {
+  width: 100%;
+  box-shadow: -5px 5px 30px 0px rgba(0, 0, 0, 0.7);
+}
+
+#instafeed .instafeedPost::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  display: none;
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  transition: all 300ms;
+}
+
+#instafeed .instafeedPost .InnerInstaFeedPost {
+  position: absolute;
+  color: white;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  display: none;
+}
+#instafeed .instafeedPost .InnerInstaFeedPost .InstaFeedLikes,
+#instafeed .instafeedPost .InnerInstaFeedPost .InstaFeedComments {
+  width: 50%;
+  display: inline-block;
+  margin: 0 -10px;
+  opacity: 0;
+  transition: all 300ms;
+  z-index: 15;
+  position: relative;
+}
+
+#instafeed .instafeedPost:hover .InnerInstaFeedPost .InstaFeedLikes,
+#instafeed .instafeedPost:hover .InnerInstaFeedPost .InstaFeedComments,
+#instafeed .instafeedPost:hover::after {
+  opacity: 1;
+}
+
+#instafeed .instafeedPost .InnerInstaFeedPost .InstaFeedLikes::before {
+  content: url("../../../assets/united-cheer-sports-dortmund-like-instagram.svg");
+  display: inline-block;
+  width: 15px;
+  margin-right: 5px;
+}
+
+#instafeed .instafeedPost .InnerInstaFeedPost .InstaFeedComments::before {
+  content: url("../../../assets/united-cheer-sports-dortmund-comment-instagram.svg");
+  display: inline-block;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.InstagramFeedContainer {
+  background-image: url("../../../assets/united-cheer-sports-dortmund-instagram-bg_1.svg");
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.InstagramFeedContainer .ContentContainer {
+  padding-bottom: 4em;
+}
+
+.InstagramFeedContainer .Logo {
+  width: 350px;
+  display: block;
+  position: relative;
+  top: -2em;
+  padding: 0 25px;
+  margin: auto;
+  background: white;
+  border-radius: 0 0 50px 50px;
+}
+
+.InstagramFeedLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.InstagramFeedLinks .PlaceholderIcon {
+  width: 40px;
+  height: 40px;
+}
+.InstagramFeedLinks .SocialLink {
+  color: black;
+
+  font-weight: 600;
+}
+
+.InstagramFeedLinks .SocialLink .SocialLinkIcon {
+  width: 30px;
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 800px) {
+  #instafeed {
+    flex-wrap: nowrap;
+  }
+  #instafeed .instafeedPost {
+    width: auto;
+  }
+
+  #instafeed .instafeedPost::after {
+    display: inline-block;
+  }
+
+  #instafeed .instafeedPost .InnerInstaFeedPost {
+    display: block;
+  }
+}

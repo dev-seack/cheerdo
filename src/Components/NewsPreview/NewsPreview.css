@@ -1,0 +1,76 @@
+.NewsPreviewContainer {
+  width: 100%;
+  padding: 2em;
+}
+
+.NewsPreviewContainer * {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.NewsPreviewThumbnail {
+  margin-bottom: 2em;
+  position: relative;
+  z-index: 10;
+}
+
+.NewsPreviewThumbnailContainer {
+  position: relative;
+  z-index: 9;
+}
+
+.NewsPreviewThumbnailContainer::before {
+  content: "";
+  background: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 1em;
+  left: 1em;
+}
+
+.NewsPreviewThumbnailContainer::after {
+  content: "";
+  background: #c1ff2e;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -1em;
+  left: -1em;
+}
+
+.NewsPreviewHeadline {
+  font-family: "Staatliches";
+  font-size: 1.75em;
+  color: black;
+}
+
+.NewsPreviewReadMore {
+  font-family: "Staatliches";
+  font-size: 1.25em;
+  color: black;
+}
+
+.NewsPreviewText {
+  font-size: 0.9em;
+}
+
+.NewsPreviewReadMore:hover {
+  text-decoration: none;
+  outline: none;
+  color: grey;
+}
+
+@media screen and (min-width: 600px) {
+  .NewsPreviewContainer {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .NewsPreviewContainer {
+    width: 33%;
+    padding: 0 2em;
+  }
+}

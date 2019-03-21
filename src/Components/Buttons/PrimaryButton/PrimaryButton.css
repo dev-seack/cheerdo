@@ -1,0 +1,35 @@
+.PrimaryButton {
+  font-family: "Staatliches";
+  color: white;
+  background: #c1ff2e;
+  font-size: 1.5em;
+  width: 250px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  margin-top: 3em;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.PrimaryButton::before {
+  content: attr(data-text);
+  position: absolute;
+  border-radius: 2px;
+  top: 0.5em;
+  left: 0.5em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #000000;
+  transition: all 300ms;
+}
+
+.PrimaryButton:hover::before {
+  top: -0.5em;
+  left: -0.5em;
+}

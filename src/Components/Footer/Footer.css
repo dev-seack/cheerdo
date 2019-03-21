@@ -1,0 +1,92 @@
+.Footer {
+  margin-top: 200px;
+  height: 100%;
+  background: url("../../assets/united-cheer-sports-dortmund-footer-bg.svg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.FooterLogo {
+  width: 300px;
+  display: block;
+  position: relative;
+  top: -4em;
+  margin: auto;
+}
+
+.Footer .ContentContainer div * {
+  color: white;
+}
+
+.FooterNavigation {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.FooterNavigation a {
+  color: white;
+  font-family: "Staatliches";
+  font-size: 1.4em;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.FooterNavigation a span {
+  position: relative;
+  display: inline-block;
+  transition: all 300ms;
+}
+
+.FooterNavigation a span::before {
+  content: attr(data-hover);
+  position: absolute;
+  top: 100%;
+  pointer-events: none;
+  transform: translate3D(0, 0, 0);
+  color: #c1ff2e;
+}
+
+.FooterNavigation a:hover span {
+  transform: translateY(-100%);
+  transition: all 300ms;
+}
+
+.SportbundContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.SportbundContainer img {
+  width: 100px;
+}
+
+.FooterSocialContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.FooterSocialContainer a:hover img {
+  width: 35px;
+  padding: 0;
+}
+
+.FooterSocialContainer a img {
+  width: 35px;
+  padding: 5px;
+  margin: 2em 2em 4em 2em;
+  transition: padding 300ms;
+}
+
+.FooterCopyright p {
+  text-align: center;
+}
