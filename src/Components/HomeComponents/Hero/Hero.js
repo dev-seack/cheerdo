@@ -10,10 +10,12 @@ import { PrimaryButton } from "../../Buttons/PrimaryButton";
 const Hero = (props) => {
   return (
     <div className="HeroContainer">
-      <video className="VideoBackground" loop autoplay="" muted>
-        <source src={video} type="video/mp4" />
-        Dein Browser unterstuetzt keine Videos
-      </video>
+      <div className="VideoBackground">
+        <video loop autoplay="" muted>
+          <source src={video} type="video/mp4" />
+          Dein Browser unterstuetzt keine Videos
+        </video>
+      </div>
       <div className="InnerHeroContainer">
         <img
           className="HeroHeadline"
