@@ -4,7 +4,7 @@
 }
 
 .VideoBackground {
-  width: 100%;
+  min-width: 100%;
 }
 
 .InnerHeroContainer {
@@ -24,6 +24,7 @@
 
 .HeroHeadline {
   width: 100%;
+  margin: 0 1.5em;
 }
 
 .InnerHeroContainer p.HeroSubline {
