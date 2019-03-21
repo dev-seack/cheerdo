@@ -36,8 +36,6 @@ class InstagramFeed extends React.Component {
     });
 
     feed.run();
-
-    console.log(feed, this.state.clientID);
   }
 
   render() {
@@ -45,7 +43,7 @@ class InstagramFeed extends React.Component {
     let instaFeed;
 
     if (showInstaFeed) {
-      instaFeed = <div id="instafeed" show={this.state.showFeed} />;
+      instaFeed = <div id="instafeed" />;
     }
 
     return (
