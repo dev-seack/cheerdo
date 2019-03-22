@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 3.5em;
+  margin-bottom: 4em;
 }
 
 #instafeed .instafeedPost {
@@ -101,18 +101,18 @@
 
 .InstagramFeedLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.InstagramFeedLinks .PlaceholderIcon {
-  width: 40px;
-  height: 40px;
-}
 .InstagramFeedLinks .SocialLink {
   color: black;
-
   font-weight: 600;
+}
+
+.InstagramFeedLinks .SocialLink span {
+  display: none;
 }
 
 .InstagramFeedLinks .SocialLink .SocialLinkIcon {
@@ -134,5 +134,13 @@
 
   #instafeed .instafeedPost .InnerInstaFeedPost {
     display: block;
+  }
+
+  .InstagramFeedLinks {
+    justify-content: space-between;
+  }
+
+  .InstagramFeedLinks .SocialLink span {
+    display: inline;
   }
 }

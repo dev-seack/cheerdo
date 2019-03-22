@@ -1,8 +1,9 @@
 .SectionHeadline {
   margin: 50px auto 10px auto;
-  font-family: "Staatliches", cursive;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 4em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .SectionHeadline::before {

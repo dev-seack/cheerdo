@@ -41,15 +41,16 @@
 }
 
 .NewsPreviewHeadline {
-  font-family: "Staatliches";
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 1.75em;
   color: black;
 }
 
 .NewsPreviewReadMore {
-  font-family: "Staatliches";
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 1.25em;
   color: black;
+  transition: all 150ms;
 }
 
 .NewsPreviewText {

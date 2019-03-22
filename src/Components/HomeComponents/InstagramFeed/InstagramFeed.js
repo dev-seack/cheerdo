@@ -25,8 +25,9 @@ class InstagramFeed extends React.Component {
       clientId: this.state.clientID,
       userId: this.state.userID,
       accessToken: this.state.access_token,
-      sortBy: "most-liked",
-      limit: 6,
+      sortBy: "most-recent",
+      limit: 4,
+      resolution: "low_resolution",
       links: true,
       success: () => {
         this.setState({ showFeed: true });
@@ -66,14 +67,14 @@ class InstagramFeed extends React.Component {
                 size="30px"
                 className="SocialLinkIcon"
               />
-              UnitedCheerSports
+              <span>UnitedCheerSports</span>
             </SafeLink>
             <SafeLink
               className="SocialLink"
               to="https://www.instagram.com/unitedcheersports_cheerleader/"
               target="_blank"
             >
-              unitedcheersports_cheerleader
+              <span>unitedcheersports_cheerleader</span>
               <Instagramicon
                 fill="#000000"
                 size="30px"
