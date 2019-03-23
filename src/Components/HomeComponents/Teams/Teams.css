@@ -1,35 +1,15 @@
 .TeamContainer {
-  position: relative;
   display: flex;
-  overflow-y: scroll;
-  padding: 50px 0 70px 1.5em;
   margin-top: -50px;
-  justify-content: space-between;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.TeamContainer::-webkit-scrollbar-track {
-  background-color: #fff;
-}
-
-.TeamContainer::-webkit-scrollbar {
-  background-color: transparent;
-  width: 0;
-}
-
-.TeamContainer::-webkit-scrollbar-thumb {
-  background-color: #fff;
-  background-image: -webkit-linear-gradient(
-    180deg,
-    #c1ff2e 0%,
-    #c1ff2e 25%,
-    transparent 100%,
-    #c1ff2e 75%,
-    transparent
-  );
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
   .TeamContainer {
-    padding: 1.5em 1.5em 2.5em 1.5em;
+    flex-wrap: nowrap;
   }
 }

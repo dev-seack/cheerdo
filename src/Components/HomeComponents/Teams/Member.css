@@ -1,23 +1,58 @@
 .MemberContainer {
   background: white;
-  box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.6);
-  max-width: 500px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 1.5em 3em 2em 3em;
+  padding: 1.5em 2em 2em 2em;
   border-radius: 20px;
-  margin: 0 1em;
+  position: relative;
+  width: 100%;
+  margin-bottom: 2em;
+  /*cursor: pointer;*/
+}
+
+/*
+.SelectedTeam {
+  box-shadow: 0 0 0 5px inset #c1ff2e, 0 0 0 10px inset black,
+    10px 10px 20px 0 rgba(0, 0, 0, 0.3) !important;
+}
+*/
+
+.MemberContainer.Left,
+.MemberContainer.Right {
+  box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.MemberContainer.Right.Front {
+  margin-left: 5px;
+  transition: all 300ms;
+}
+
+.MemberContainer.Left.Front {
+  margin-right: 5px;
+  transition: all 300ms;
+}
+
+.MemberContainer.Front {
+  z-index: 10;
+}
+
+.MemberContainer.Middle {
+  z-index: 9;
+}
+
+.MemberContainer.Back {
+  z-index: 8;
 }
 
 .MemberContainer .MemberImage {
-  max-width: 200px;
+  width: 120px;
 }
 
 .MemberContainer .MemberName {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.6em;
   text-transform: uppercase;
   margin-top: 1em;
   text-align: center;
@@ -35,18 +70,78 @@
 
 @media screen and (min-width: 800px) {
   .MemberContainer {
-    position: relative;
-    top: 20px;
-    transition: top 300ms;
+    width: auto;
   }
 
-  .MemberContainer:hover {
-    top: 0px;
+  .MemberContainer:hover.Back,
+  .MemberContainer:hover.Middle,
+  .MemberContainer:hover.Front {
+    z-index: 11;
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .MemberContainer .MemberImage {
-    max-width: 150px;
+  .MemberContainer:hover.Middle.Left,
+  .MemberContainer:hover.Front.Left,
+  .MemberContainer:hover.Middle.Right,
+  .MemberContainer:hover.Front.Right {
+    transform: translateX(0) scale(1.1);
+    transition: all 300ms;
+  }
+
+  .MemberContainer:hover.Back.Left {
+    transform: translateX(3em) scale(1.1);
+    transition: all 300ms;
+  }
+
+  .MemberContainer:hover.Back.Right {
+    transform: translateX(-3em) scale(1.1);
+    transition: all 300ms;
+  }
+
+  .MemberContainer.Middle.Left {
+    transform: translateX(3em);
+    transition: all 300ms;
+  }
+
+  .MemberContainer.Back.Left {
+    transform: translateX(6em);
+    transition: all 300ms;
+  }
+
+  .MemberContainer.Middle.Right {
+    transform: translateX(-3em);
+    transition: all 300ms;
+  }
+
+  .MemberContainer.Back.Right {
+    transform: translateX(-6em);
+    transition: all 300ms;
+  }
+
+  .MemberContainer.Middle .MemberName {
+    font-size: 1.3em;
+  }
+
+  .MemberContainer.Back .MemberName {
+    font-size: 1.1em;
+  }
+
+  .MemberContainer.Front .MemberImage {
+    width: 200px;
+  }
+
+  .MemberContainer.Middle .MemberImage {
+    width: 150px;
+  }
+
+  .MemberContainer.Back .MemberImage {
+    width: 100px;
+  }
+
+  .MemberContainer.Left {
+    box-shadow: -10px 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .MemberContainer.Right {
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.3);
   }
 }

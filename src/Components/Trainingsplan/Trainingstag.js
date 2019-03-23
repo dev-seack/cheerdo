@@ -2,7 +2,6 @@ import React from "react";
 import { Enc } from "../hoc/enc";
 
 const Trainingstag = (props) => {
-  console.log(props.information);
   return (
     <div className="Trainingstag">
       <h4>{props.name}</h4>

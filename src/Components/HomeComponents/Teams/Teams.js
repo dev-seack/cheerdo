@@ -14,19 +14,50 @@ class Teams extends React.Component {
   render() {
     return (
       <Aux>
-        <SectionHeadline headline="UNSERE TEAMS">
+        <SectionHeadline headline="Wähle dein TEAM">
           Von den Silver Smarties bis zu den Steelers, Cheerdancer und
           Cheerleader. Jeder findet sein richtiges Team. Wir wuerden uns riesig
-          freuen dich beim Probetraining begruessen zu duerfen. Schau gerne
-          vorbei.
+          freuen dich beim Probetraining begruessen zu duerfen. Schau vorbei und
+          wähle dein Team.
         </SectionHeadline>
         <div className="TeamContainer">
-          <Member name="Steelers" category="Cheerleader" age="16 - ∞" />
-          <Member name="Supreme" category="Cheerleader" age="12 - 16" />
-          <Member name="Silver Smarties" category="Cheerleader" age="5 - 12" />
-          <Member name="Silver Spirit" category="Cheerdancer" age="16 - ∞" />
-          <Member name="Silverlicious" category="Cheerdancer" age="12 - 16" />
-          <Member name="Dancing Smarties" category="Cheerdancer" age="5 - 12" />
+          <Member
+            carouselPosition="Back Left"
+            name="Silver Smarties"
+            category="Cheerleader"
+            age="5 - 12"
+          />
+          <Member
+            carouselPosition="Middle Left"
+            name="Supreme"
+            category="Cheerleader"
+            age="12 - 16"
+          />
+
+          <Member
+            carouselPosition="Front Left"
+            name="Steelers"
+            category="Cheerleader"
+            age="16 - ∞"
+          />
+          <Member
+            carouselPosition="Front Right"
+            name="Silver Spirit"
+            category="Cheerdancer"
+            age="16 - ∞"
+          />
+          <Member
+            carouselPosition="Middle Right"
+            name="Silverlicious"
+            category="Cheerdancer"
+            age="12 - 16"
+          />
+          <Member
+            carouselPosition="Back Right"
+            name="Dancing Smarties"
+            category="Cheerdancer"
+            age="5 - 12"
+          />
         </div>
         <PrimaryButton text="Probetraining" to="probetraining" />
       </Aux>
