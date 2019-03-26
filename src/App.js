@@ -5,6 +5,7 @@ import "./css/App.css";
 import { Eventslider } from "./Components/Eventslider";
 import { Navigation } from "./Components/Navigation";
 import { Footer } from "./Components/Footer";
+import { MobileNavigation } from "./Components/Navigation/Mobile/MobileNavigation";
 
 class App extends Component {
   constructor(props) {
@@ -16,6 +17,7 @@ class App extends Component {
       <div className="App">
         <Eventslider />
         <Navigation />
+        <MobileNavigation />
         <Footer />
       </div>
     );

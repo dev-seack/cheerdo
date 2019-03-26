@@ -12,25 +12,25 @@ const ContactForm = (props) => {
         aenlichen kannst du uns jederzeit ueber unser Kontaktformular erreichen.
         Wir werden dir so schnell wie moeglich deine Frage beantworten.
       </SectionHeadline>
-      <form className="ContactForm ContentContainer" autocomplete="off">
+      <form className="ContactForm ContentContainer" autoComplete="off">
         <div className="FormGroup">
-          <label for="vorname">Vorname*</label>
+          <label htmlFor="vorname">Vorname*</label>
           <input type="text" name="vorname" id="vorname" required />
         </div>
         <div className="FormGroup">
-          <label for="nachname">Nachname*</label>
+          <label htmlFor="nachname">Nachname*</label>
           <input type="text" name="nachname" id="nachname" required />
         </div>
         <div className="FormGroup">
-          <label for="email">E-Mail-Adresse*</label>
+          <label htmlFor="email">E-Mail-Adresse*</label>
           <input type="email" name="email" id="email" required />
         </div>
         <div className="FormGroup">
-          <label for="telefonnummer">Telefonnummer</label>
+          <label htmlFor="telefonnummer">Telefonnummer</label>
           <input type="phone" name="telefonnummer" id="telefonnummer" />
         </div>
         <div className="FormGroup FormGroupText">
-          <label for="nachricht">Deine Nachricht an uns*</label>
+          <label htmlFor="nachricht">Deine Nachricht an uns*</label>
           <textarea name="nachricht" id="nachricht" required />
         </div>
       </form>

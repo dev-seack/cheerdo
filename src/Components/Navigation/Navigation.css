@@ -1,99 +1,105 @@
 .NavigationContainer {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  text-transform: uppercase;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(black, rgba(0, 0, 0, 0));
-  color: white;
-  font-size: 1.2em;
-  position: fixed;
-  margin-top: 30px;
-  padding: 25px 1.5em;
-  z-index: 20;
-  transition: all 300ms;
+  display: none;
 }
 
-.MainNavigation,
-.ContactNavigation {
-  z-index: 10;
-}
+@media screen and (min-width: 800px) {
+  .NavigationContainer {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(black, rgba(0, 0, 0, 0));
+    color: white;
+    font-size: 1.2em;
+    position: fixed;
+    margin-top: 30px;
+    padding: 25px 1.5em;
+    z-index: 20;
+    transition: all 300ms;
+  }
 
-.NavigationContainer.scrolled {
-  padding: 40px 1.5em 10px 1.5em;
-  background: rgba(0, 0, 0, 1);
-}
+  .MainNavigation,
+  .ContactNavigation {
+    z-index: 10;
+  }
 
-.NavigationContainer ul {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
+  .NavigationContainer.scrolled {
+    padding: 40px 1.5em 10px 1.5em;
+    background: rgba(0, 0, 0, 1);
+  }
 
-.NavigationContainer ul li a {
-  color: white;
-  cursor: pointer;
-  font-size: 0.95em;
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
+  .NavigationContainer ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
 
-.NavigationContainer ul li a span {
-  position: relative;
-  display: inline-block;
-  transition: all 300ms;
-}
+  .NavigationContainer ul li a {
+    color: white;
+    cursor: pointer;
+    font-size: 0.95em;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 
-.NavigationContainer ul li a span::before {
-  content: attr(data-hover);
-  position: absolute;
-  top: 100%;
-  pointer-events: none;
-  transform: translate3D(0, 0, 0);
-  color: #c1ff2e;
-}
+  .NavigationContainer ul li a span {
+    position: relative;
+    display: inline-block;
+    transition: all 300ms;
+  }
 
-.NavigationContainer ul li a:hover {
-  text-decoration: none;
-  outline: none;
-}
+  .NavigationContainer ul li a span::before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 100%;
+    pointer-events: none;
+    transform: translate3D(0, 0, 0);
+    color: #c1ff2e;
+  }
 
-.NavigationContainer ul li a:hover span {
-  transform: translateY(-100%);
-  transition: all 300ms;
-}
+  .NavigationContainer ul li a:hover {
+    text-decoration: none;
+    outline: none;
+  }
 
-.NavigationContainer ul.MainNavigation li {
-  margin-right: 2.5em;
-  text-align: left;
-}
+  .NavigationContainer ul li a:hover span {
+    transform: translateY(-100%);
+    transition: all 300ms;
+  }
 
-.NavigationContainer ul.ContactNavigation li {
-  margin-left: 2.5em;
-  text-align: right;
-}
+  .NavigationContainer ul.MainNavigation li {
+    margin-right: 2.5em;
+    text-align: left;
+  }
 
-.NavigationLogoContainer {
-  width: 100%;
-  margin-left: -1.5em;
-  display: inline-block;
-  position: absolute;
-  z-index: 9;
-}
+  .NavigationContainer ul.ContactNavigation li {
+    margin-left: 2.5em;
+    text-align: right;
+  }
 
-.NavigationLogoContainer img {
-  width: 100px;
-  display: block;
-  margin: 0 auto;
-  transition: all 300ms;
-}
+  .NavigationLogoContainer {
+    width: 100%;
+    margin-left: -1.5em;
+    display: inline-block;
+    position: absolute;
+    z-index: 9;
+  }
 
-.NavigationContainer.scrolled .NavigationLogoContainer img {
-  width: 70px;
+  .NavigationLogoContainer img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    transition: all 300ms;
+  }
+
+  .NavigationContainer.scrolled .NavigationLogoContainer img {
+    width: 70px;
+  }
 }

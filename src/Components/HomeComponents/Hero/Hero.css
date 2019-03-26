@@ -52,19 +52,25 @@
 }
 
 .HeroSocialContainer {
-  position: absolute;
-  bottom: 1.5em;
-  left: 1.5em;
+  display: none;
 }
+@media screen and (min-width: 800px) {
+  .HeroSocialContainer {
+    display: inline-block;
+    position: absolute;
+    bottom: 1.5em;
+    left: 1.5em;
+  }
 
-.HeroSocialContainer a:hover img {
-  width: 35px;
-  padding: 0;
-}
+  .HeroSocialContainer a:hover img {
+    width: 35px;
+    padding: 0;
+  }
 
-.HeroSocialContainer a img {
-  width: 35px;
-  padding: 5px;
-  margin-right: 2em;
-  transition: padding 300ms;
+  .HeroSocialContainer a img {
+    width: 35px;
+    padding: 5px;
+    margin-right: 2em;
+    transition: padding 300ms;
+  }
 }
