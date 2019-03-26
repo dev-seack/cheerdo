@@ -9,15 +9,7 @@
   position: relative;
   width: 100%;
   margin-bottom: 2em;
-  /*cursor: pointer;*/
 }
-
-/*
-.SelectedTeam {
-  box-shadow: 0 0 0 5px inset #c1ff2e, 0 0 0 10px inset black,
-    10px 10px 20px 0 rgba(0, 0, 0, 0.3) !important;
-}
-*/
 
 .MemberContainer.Left,
 .MemberContainer.Right {
@@ -71,12 +63,6 @@
 @media screen and (min-width: 800px) {
   .MemberContainer {
     width: auto;
-  }
-
-  .MemberContainer:hover.Back,
-  .MemberContainer:hover.Middle,
-  .MemberContainer:hover.Front {
-    z-index: 11;
   }
 
   .MemberContainer:hover.Middle.Left,

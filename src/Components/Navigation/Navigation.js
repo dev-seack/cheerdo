@@ -35,7 +35,7 @@ const Navigation = (props) => {
         </div>
         <ul className="ContactNavigation">
           <li>
-            <Link to="/startseite#contact">
+            <Link to="/startseite#kontakt">
               <span data-hover="Kontakt">Kontakt</span>
             </Link>
           </li>

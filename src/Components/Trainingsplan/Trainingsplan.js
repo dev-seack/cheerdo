@@ -123,7 +123,7 @@ class Trainingsplan extends React.Component {
   render() {
     return (
       <Aux>
-        <SectionHeadline headline="Trainingsplan">
+        <SectionHeadline headline="Training">
           Wir wuerden uns riesig freuen dich beim Probetraining begruessen zu
           sehen. Schau einfach in unserem Trainingsplan wann es fuer dich am
           besten passt und melde dich zum Probetraining an und sei schon bald

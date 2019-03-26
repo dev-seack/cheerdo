@@ -1,5 +1,5 @@
 .SectionHeadline {
-  margin: 50px auto 10px auto;
+  margin: 75px auto 10px auto;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 4em;
   text-align: center;
@@ -14,7 +14,7 @@
 }
 
 .SectionSubline {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   line-height: 1.3em;
   font-size: 1.05em;
   text-align: center;

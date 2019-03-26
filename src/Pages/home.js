@@ -6,6 +6,7 @@ import { News } from "../Components/HomeComponents/News";
 import { InstagramFeed } from "../Components/HomeComponents/InstagramFeed";
 import { Teams } from "../Components/HomeComponents/Teams";
 import { Trainingsplan } from "../Components/Trainingsplan";
+import { ContactForm } from "../Components/HomeComponents/ContactForm";
 
 const Home = (props) => {
   return (
@@ -15,6 +16,7 @@ const Home = (props) => {
       <InstagramFeed />
       <Teams />
       <Trainingsplan />
+      <ContactForm />
     </Aux>
   );
 };
