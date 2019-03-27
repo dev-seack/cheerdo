@@ -8,7 +8,7 @@
   border-radius: 20px;
   position: relative;
   width: 100%;
-  margin-bottom: 2em;
+  margin: 0 0.5em 2em 0.5em;
 }
 
 .MemberContainer.Left,
@@ -17,12 +17,10 @@
 }
 
 .MemberContainer.Right.Front {
-  margin-left: 5px;
   transition: all 300ms;
 }
 
 .MemberContainer.Left.Front {
-  margin-right: 5px;
   transition: all 300ms;
 }
 
@@ -62,7 +60,14 @@
 
 @media screen and (min-width: 800px) {
   .MemberContainer {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .MemberContainer {
     width: auto;
+    margin: 0 0 2em 0;
   }
 
   .MemberContainer:hover.Middle.Left,

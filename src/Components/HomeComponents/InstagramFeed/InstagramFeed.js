@@ -26,7 +26,7 @@ class InstagramFeed extends React.Component {
       userId: this.state.userID,
       accessToken: this.state.access_token,
       sortBy: "most-recent",
-      limit: 4,
+      limit: 6,
       resolution: "low_resolution",
       links: true,
       success: () => {

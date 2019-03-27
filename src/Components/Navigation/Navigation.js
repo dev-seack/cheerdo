@@ -5,6 +5,7 @@ import "./Navigation.css";
 
 // Routes - Pages
 import { Home } from "../../Pages/home";
+import { Probetraining } from "../../Pages/probetraining";
 
 const Navigation = (props) => {
   return (
@@ -43,6 +44,7 @@ const Navigation = (props) => {
       </div>
       <Route exact component={Home} path="/" />
       <Route component={Home} path="/startseite" />
+      <Route component={Probetraining} path="/probetraining" />
     </Router>
   );
 };

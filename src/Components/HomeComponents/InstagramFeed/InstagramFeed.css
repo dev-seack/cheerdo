@@ -122,10 +122,10 @@
 
 @media screen and (min-width: 800px) {
   #instafeed {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   #instafeed .instafeedPost {
-    width: auto;
+    width: 33%;
   }
 
   #instafeed .instafeedPost::after {

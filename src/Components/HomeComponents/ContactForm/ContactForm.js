@@ -2,6 +2,7 @@ import React from "react";
 import "./ContactForm.css";
 
 import { SectionHeadline } from "../../Text/SectionHeadline";
+import { PrimaryButton } from "../../Buttons/PrimaryButton";
 import { Aux } from "../../hoc/aux";
 
 const ContactForm = (props) => {
@@ -12,7 +13,11 @@ const ContactForm = (props) => {
         aenlichen kannst du uns jederzeit ueber unser Kontaktformular erreichen.
         Wir werden dir so schnell wie moeglich deine Frage beantworten.
       </SectionHeadline>
-      <form className="ContactForm ContentContainer" autoComplete="off">
+      <form
+        method="POST"
+        className="ContactForm ContentContainer"
+        autoComplete="off"
+      >
         <div className="FormGroup">
           <label htmlFor="vorname">Vorname*</label>
           <input type="text" name="vorname" id="vorname" required />
@@ -33,6 +38,7 @@ const ContactForm = (props) => {
           <label htmlFor="nachricht">Deine Nachricht an uns*</label>
           <textarea name="nachricht" id="nachricht" required />
         </div>
+        <PrimaryButton submit text="Absenden" />
       </form>
     </Aux>
   );

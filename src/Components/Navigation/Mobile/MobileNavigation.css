@@ -113,3 +113,9 @@
 .MobileNavigationAccent.openMenu {
   padding-top: 13em;
 }
+
+@media screen and (min-width: 800px) {
+  .MobileNavigationToggle {
+    display: none;
+  }
+}

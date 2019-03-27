@@ -3,7 +3,11 @@ import "./PrimaryButton.css";
 
 const PrimaryButton = (props) => {
   const to = "/" + props.to;
-  return (
+  return props.submit ? (
+    <button type="submit" className="PrimaryButton" data-text={props.text}>
+      {" "}
+    </button>
+  ) : (
     <a
       href={to}
       className="PrimaryButton"

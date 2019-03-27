@@ -34,6 +34,7 @@
 
 .FormGroupText textarea {
   height: 250px;
+  padding: 10px;
 }
 
 .FormGroup input:focus,
