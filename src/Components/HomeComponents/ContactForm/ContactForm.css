@@ -10,8 +10,39 @@
 }
 
 .FormGroup input,
-.FormGroup textarea {
+.FormGroup textarea,
+.FormGroup select {
   width: 100%;
+  -webkit-appearance: none;
+  background: white;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="date"] {
+  -moz-appearance: test-field;
+}
+
+.FormGroup select {
+  background: white;
+  border-radius: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.FormGroup .selectWrapper {
+  position: relative;
+}
+.FormGroup .selectWrapper::after {
+  content: url("../../../assets/select-arrow.svg");
+  width: 15px;
+  height: 15px;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+  position: absolute;
 }
 
 .FormGroup label {
@@ -19,15 +50,16 @@
   top: -0.85em;
   text-transform: uppercase;
   color: #666;
-  font-size: 0.9em;
-  letter-spacing: 2px;
+  font-size: 0.75em;
 }
 .FormGroup input,
-.FormGroupText textarea {
+.FormGroupText textarea,
+.FormGroup select {
   border: #666 solid 1px;
 }
 
-.FormGroup input {
+.FormGroup input,
+.FormGroup select {
   height: 40px;
   padding: 0px 10px;
 }
@@ -38,11 +70,30 @@
 }
 
 .FormGroup input:focus,
-.FormGroupText textarea:focus {
+.FormGroupText textarea:focus,
+.FormGroup select:focus {
   outline: none;
 }
 
+.FormGroup.Quarter,
+.FormGroup.Half {
+  width: 100%;
+}
+
 @media screen and (min-width: 800px) {
+  .FormGroup label {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+  }
+  .FormGroup.Quarter {
+    width: 25%;
+  }
+  .FormGroup.Full {
+    width: 100%;
+  }
+  .FormGroup.Half {
+    width: 50%;
+  }
   .FormGroup {
     width: 50%;
   }

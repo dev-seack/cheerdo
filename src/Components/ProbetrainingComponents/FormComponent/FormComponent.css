@@ -1,0 +1,7 @@
+.importantMessage {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba 1px solid;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+}

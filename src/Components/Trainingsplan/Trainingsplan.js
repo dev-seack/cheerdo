@@ -22,7 +22,7 @@ class Trainingsplan extends React.Component {
           {
             team: "Silverlicious",
             time: "17:30 - 19:30",
-            location: "Diesterweg Grundschule"
+            location: "Diesterweg Grundschule Dortmund"
           },
           {
             team: "Steelers",
@@ -55,7 +55,7 @@ class Trainingsplan extends React.Component {
           {
             team: "Silverlicious",
             time: "17:30 - 19:30",
-            location: "Helmholtz Gymnasium"
+            location: "Helmholtz Gymnasium Dortmund"
           }
         ],
         thursday: [
@@ -76,7 +76,7 @@ class Trainingsplan extends React.Component {
           {
             team: "Silver Smarties",
             time: "17:00 - 19:00",
-            location: "Ghoetestr. 20"
+            location: "Goethestr. 20, Dortmund"
           },
           {
             team: "Supreme",

@@ -1,0 +1,17 @@
+.marker {
+  background-image: url("../../../assets/united-cheer-sports-dortmund-maps-marker.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 35px;
+  height: 70px;
+  cursor: pointer;
+}
+
+#MapContainer {
+  height: 400px;
+}
+
+.mapboxgl-popup-content {
+  padding: 1em 1.4em;
+}

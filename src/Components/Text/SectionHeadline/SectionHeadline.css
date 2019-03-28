@@ -1,7 +1,7 @@
 .SectionHeadline {
   margin: 75px auto 10px auto;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -19,4 +19,10 @@
   font-size: 1.05em;
   text-align: center;
   letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 1000px) {
+  .SectionHeadline {
+    font-size: 4em;
+  }
 }
