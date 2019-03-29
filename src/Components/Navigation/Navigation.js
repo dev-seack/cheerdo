@@ -6,6 +6,7 @@ import "./Navigation.css";
 // Routes - Pages
 import { Home } from "../../Pages/home";
 import { Probetraining } from "../../Pages/probetraining";
+import { NotFound } from "../../Pages/NotFound";
 
 const Navigation = (props) => {
   return (
@@ -43,8 +44,9 @@ const Navigation = (props) => {
         </ul>
       </div>
       <Route exact component={Home} path="/" />
-      <Route component={Home} path="/startseite" />
-      <Route component={Probetraining} path="/probetraining" />
+      <Route exact component={Home} path="/startseite" />
+      <Route exact component={Probetraining} path="/probetraining" />
+      <Route path="*" component={NotFound} />
     </Router>
   );
 };

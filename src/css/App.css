@@ -1,0 +1,24 @@
+.NotFoundContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 120px;
+}
+
+.NotFoundContainer * {
+  margin: 0 auto;
+}
+
+.NotFoundContainer img {
+  width: 350px;
+}
+
+.NotFoundContainer p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4em;
+  color: black;
+
+  text-transform: uppercase;
+}
