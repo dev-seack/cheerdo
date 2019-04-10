@@ -11,7 +11,7 @@ const Hero = (props) => {
   return (
     <div className="HeroContainer">
       <div className="VideoBackground">
-        <video loop muted autoplay="">
+        <video loop muted autoPlay>
           <source src={video} type="video/mp4" />
           Dein Browser unterstuetzt keine Videos
         </video>

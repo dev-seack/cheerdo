@@ -13,9 +13,7 @@ const NewsPreview = (props) => {
       </div>
       <h3 className="NewsPreviewHeadline">{props.headline}</h3>
       <p className="NewsPreviewText">{props.children}</p>
-      <a className="NewsPreviewReadMore" href="/startseite">
-        Mehr lesen
-      </a>
+      <p className="NewsPreviewReadMore">Mehr lesen</p>
     </div>
   );
 };
