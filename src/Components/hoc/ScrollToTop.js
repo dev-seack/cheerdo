@@ -3,7 +3,7 @@ import { useRouter } from "state";
 
 // Component that attaches scroll to top hanler on router change
 // renders nothing, just attaches side effects
-const ScrollToTopControlller = () => {
+const ScrollToTopController = () => {
   // this assumes that current router state is accessed via hook
   // but it does not matter, pathname and search (or that ever) may come from props, context, etc.
   const { pathname, search } = useRouter();
@@ -27,4 +27,4 @@ const ScrollToTopControlller = () => {
   return null;
 };
 
-export { ScrollToTopControlller };
+export { ScrollToTopController };
