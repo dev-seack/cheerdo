@@ -4,21 +4,31 @@
 
 @media screen and (min-width: 800px) {
   .NavigationContainer {
+    z-index: 20;
+    background: linear-gradient(black, rgba(0, 0, 0, 0));
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  .NavigationInnerContainer {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-transform: uppercase;
     width: 100%;
+    max-width: 1260px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(black, rgba(0, 0, 0, 0));
     color: white;
     font-size: 1.2em;
-    position: fixed;
-    margin-top: 30px;
+    margin: 0 auto;
     padding: 25px 1.5em;
-    z-index: 20;
     transition: all 300ms;
     top: 0;
+  }
+
+  .NavigationInnerContainer > * {
+    width: 33%;
   }
 
   .MainNavigation,
@@ -81,15 +91,13 @@
   }
 
   .NavigationContainer ul.ContactNavigation li {
-    margin-left: 2.5em;
+    margin-left: auto;
     text-align: right;
   }
 
   .NavigationLogoContainer {
-    width: 100%;
     margin-left: -1.5em;
     display: inline-block;
-    position: absolute;
     z-index: 9;
   }
 

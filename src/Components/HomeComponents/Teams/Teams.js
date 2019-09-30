@@ -6,6 +6,14 @@ import { SectionHeadline } from "../../Text/SectionHeadline";
 import { Member } from "./Member";
 import { PrimaryButton } from "../../Buttons/PrimaryButton";
 
+// teamimages
+import silversmartiesImage from "../../../assets/teams/ucs-silversmarties.png";
+import supremeImage from "../../../assets/teams/ucs-supreme.png";
+import steelersImage from "../../../assets/teams/ucs-steelers.png";
+import silverspiritImage from "../../../assets/teams/ucs-silverspiritdancer.png";
+import silverliciousImage from "../../../assets/teams/ucs-silverlicious.png";
+import dancingsmartiesImage from "../../../assets/teams/ucs-dancingsmarties.png";
+
 class Teams extends React.Component {
   constructor(props) {
     super(props);
@@ -22,12 +30,14 @@ class Teams extends React.Component {
         </SectionHeadline>
         <div className="TeamContainer">
           <Member
+            imageSource={silversmartiesImage}
             carouselPosition="Back Left"
             name="Silver Smarties"
             category="Cheerleader"
             age="5 - 12"
           />
           <Member
+            imageSource={supremeImage}
             carouselPosition="Middle Left"
             name="Supreme"
             category="Cheerleader"
@@ -35,24 +45,28 @@ class Teams extends React.Component {
           />
 
           <Member
+            imageSource={steelersImage}
             carouselPosition="Front Left"
             name="Steelers"
             category="Cheerleader"
             age="16 - ∞"
           />
           <Member
+            imageSource={silverspiritImage}
             carouselPosition="Front Right"
             name="Silver Spirit"
             category="Cheerdancer"
             age="16 - ∞"
           />
           <Member
+            imageSource={silverliciousImage}
             carouselPosition="Middle Right"
             name="Silverlicious"
             category="Cheerdancer"
             age="12 - 16"
           />
           <Member
+            imageSource={dancingsmartiesImage}
             carouselPosition="Back Right"
             name="Dancing Smarties"
             category="Cheerdancer"

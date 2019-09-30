@@ -13,7 +13,7 @@ const NewsOverview = (props) => {
   const articlesID = 1;
 
   return (
-    <Aux isContentContainer>
+    <Aux isContentContainer maxContainer>
       <SectionHeadline headline="Neues von UCS">
         Wir nehmen regelmaessig an Wettkaempfen, Vorstellungen, extern sowie
         Intern teil. Ausserdem teilen wir gerne Trainingseinheiten, Wettkaempfe,

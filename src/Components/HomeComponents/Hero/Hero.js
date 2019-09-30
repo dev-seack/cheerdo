@@ -27,7 +27,7 @@ const Hero = (props) => {
           Wettkampfsportarten und vereinen Turnen, Akrobatik und Tanz sowie
           Anfeuerungsrufe.
         </p>
-        <p className="allTogether">All Together</p>
+        <p className="allTogether">Black White Green</p>
         <PrimaryButton text="werde teil von ucs" to="probetraining" />
       </div>
       <div className="HeroSocialContainer">
