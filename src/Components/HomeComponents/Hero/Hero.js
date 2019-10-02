@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import video from "../../../assets/homeVideo.mp4";
+import poster from "../../../assets/homeVideo-poster.jpeg";
 import headline from "../../../assets/united-cheer-sports-schriftzug.svg";
 import instagramLogo from "../../../assets/united-cheer-sports-instagram.svg";
 import facebookLogo from "../../../assets/united-cheer-sports-facebook.svg";
@@ -11,7 +12,7 @@ const Hero = (props) => {
   return (
     <div className="HeroContainer">
       <div className="VideoBackground">
-        <video loop muted autoPlay>
+        <video loop muted autoPlay poster={poster}>
           <source src={video} type="video/mp4" />
           Dein Browser unterstuetzt keine Videos
         </video>

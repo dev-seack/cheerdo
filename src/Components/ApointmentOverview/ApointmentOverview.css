@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-radius: 5px;
+}
+
+td,
+th {
+  border: 1px solid lightgray;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(193, 255, 46, 0.35);
+}
+
+tr:hover {
+  background-color: rgba(193, 255, 46, 0.35);
+}
