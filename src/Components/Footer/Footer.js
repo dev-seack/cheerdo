@@ -3,7 +3,7 @@ import "./Footer.css";
 
 import { SafeLink } from "../SafeLink";
 
-import footerlogo from "../../assets/united-cheer-sports-dortmund-footer-logo.svg";
+import footerlogo from "../../assets/united-cheer-sports-dortmund-footer-logo.png";
 import instagramLogo from "../../assets/united-cheer-sports-instagram.svg";
 import facebookLogo from "../../assets/united-cheer-sports-facebook.svg";
 import dosbLogo from "../../assets/united-cheer-sports-dortmund-dosb-mitglied.svg";

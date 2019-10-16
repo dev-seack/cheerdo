@@ -1,12 +1,11 @@
 import React from "react";
-import "./aux.css";
 
 const Aux = (props) => {
-  return props.isContentContainer ? (
-    <div className="ContentContainer">{props.children}</div>
-  ) : (
-    props.children
-  );
+  if (props.maxContainer) {
+    return <div className="maxContainer">{props.children}</div>;
+  } else {
+    return props.children;
+  }
 };
 
 export { Aux };

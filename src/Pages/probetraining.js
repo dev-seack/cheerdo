@@ -8,7 +8,7 @@ import { SectionHeadline } from "../Components/Text/SectionHeadline";
 
 const Probetraining = (props) => {
   return (
-    <Aux>
+    <Aux maxContainer>
       <SectionHeadline headline="zum probetraining anmelden">
         Wir würden uns riesig freuen Dich beim Probetraining begrüßen zu dürfen.
         Schau einfach in userem Trainingsplan wann es für dich am betsen passt

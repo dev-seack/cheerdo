@@ -33,7 +33,7 @@ class InstagramFeed extends React.Component {
         this.setState({ showFeed: true });
       },
       template:
-        '<a href="{{link}}" class="instafeedPost"><img class="instafeedImage" src="{{image}}" /><div class="InnerInstaFeedPost"><span class="InstaFeedLikes">{{likes}}</span><span class="InstaFeedComments">{{comments}}</span></div></a>'
+        '<a href="{{link}}" class="instafeedPost" style="background: url({{image}}) center center no-repeat; background-size: cover;"><img class="instafeedImage" src="{{image}}" /><div class="InnerInstaFeedPost"><span class="InstaFeedLikes">{{likes}}</span><span class="InstaFeedComments">{{comments}}</span></div></a>'
     });
 
     feed.run();
@@ -54,7 +54,7 @@ class InstagramFeed extends React.Component {
           src={logo}
           alt="United Cheer Sports e.V. Dortmund Schriftzug, Cheeleading, Cheerdance, Sport in Dortmund"
         />
-        <div className="ContentContainer">
+        <div className="ContentContainer maxContainer">
           {instaFeed}
           <div className="InstagramFeedLinks">
             <SafeLink
@@ -67,14 +67,13 @@ class InstagramFeed extends React.Component {
                 size="30px"
                 className="SocialLinkIcon"
               />
-              <span>UnitedCheerSports</span>
             </SafeLink>
+            <span>Besuche uns in den Sozialen Netzwerken</span>
             <SafeLink
               className="SocialLink"
               to="https://www.instagram.com/unitedcheersports_cheerleader/"
               target="_blank"
             >
-              <span>unitedcheersports_cheerleader</span>
               <Instagramicon
                 fill="#000000"
                 size="30px"

@@ -12,11 +12,15 @@ const Home = (props) => {
   return (
     <Aux>
       <Hero />
-      <News />
+      <Aux maxContainer>
+        <News />
+      </Aux>
       <InstagramFeed />
-      <Teams />
-      <Trainingsplan />
-      <ContactForm />
+      <Aux maxContainer>
+        <Teams />
+        <Trainingsplan />
+        <ContactForm />
+      </Aux>
     </Aux>
   );
 };

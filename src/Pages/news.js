@@ -6,6 +6,7 @@ import { Aux } from "../Components/hoc/aux";
 
 import { SectionHeadline } from "../Components/Text/SectionHeadline";
 import { NewsPreview } from "../Components/NewsPreview";
+import { ApointmentOverview } from "../Components/ApointmentOverview";
 // import { PrimaryButton } from "../Components/Buttons/PrimaryButton";
 import { Link } from "react-router-dom";
 
@@ -13,7 +14,10 @@ const NewsOverview = (props) => {
   const articlesID = 1;
 
   return (
-    <Aux isContentContainer>
+    <Aux isContentContainer maxContainer>
+      <SectionHeadline headline="Termine">
+        <ApointmentOverview></ApointmentOverview>
+      </SectionHeadline>
       <SectionHeadline headline="Neues von UCS">
         Wir nehmen regelmaessig an Wettkaempfen, Vorstellungen, extern sowie
         Intern teil. Ausserdem teilen wir gerne Trainingseinheiten, Wettkaempfe,
