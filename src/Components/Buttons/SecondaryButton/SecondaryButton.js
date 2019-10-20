@@ -1,17 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./SecondaryButton.css";
 
 const SecondaryButton = (props) => {
   const to = "/" + props.to;
   return (
-    <a
-      href={to}
+    <Link
+      to={to}
       className="SecondaryButton"
-      rel="noopener noreferrer"
       data-text={props.text}
     >
       {" "}
-    </a>
+    </Link>
   );
 };
 

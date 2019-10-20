@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./PrimaryButton.css";
 
 const PrimaryButton = (props) => {
@@ -8,14 +9,13 @@ const PrimaryButton = (props) => {
       {" "}
     </button>
   ) : (
-    <a
-      href={to}
+    <Link
+      to={to}
       className="PrimaryButton"
-      rel="noopener noreferrer"
       data-text={props.text}
     >
       {" "}
-    </a>
+    </Link>
   );
 };
 
