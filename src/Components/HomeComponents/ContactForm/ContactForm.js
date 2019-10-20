@@ -3,7 +3,7 @@ import "./ContactForm.css";
 
 import { SectionHeadline } from "../../Text/SectionHeadline";
 import { PrimaryButton } from "../../Buttons/PrimaryButton";
-import { Aux } from "../../hoc/aux";
+import { Aux } from "../../hoc/_aux";
 
 const ContactForm = (props) => {
   return (

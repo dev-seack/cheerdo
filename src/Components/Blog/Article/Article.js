@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./Article.css";
 import { Enc } from "../../hoc/enc";
-import { Aux } from "../../hoc/aux";
+import { Aux } from "../../hoc/_aux";
 import { SectionHeadline } from "../../Text/SectionHeadline";
 import { NewsPreview } from "../../NewsPreview";
 

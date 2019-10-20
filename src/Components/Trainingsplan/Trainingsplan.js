@@ -2,7 +2,7 @@ import React from "react";
 import "./Trainingsplan.css";
 
 import { SectionHeadline } from "../Text/SectionHeadline";
-import { Aux } from "../hoc/aux";
+import { Aux } from "../hoc/_aux";
 import logo from "../../assets/united-cheer-sports-dortmund-footer-logo.png";
 import { Trainingstag } from "./Trainingstag";
 import { PrimaryButton } from "../Buttons/PrimaryButton";

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Teams.css";
 
-import { Aux } from "../../hoc/aux";
+import { Aux } from "../../hoc/_aux";
 import { SectionHeadline } from "../../Text/SectionHeadline";
 import { Member } from "./Member";
 import { PrimaryButton } from "../../Buttons/PrimaryButton";

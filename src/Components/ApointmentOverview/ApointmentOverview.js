@@ -1,6 +1,6 @@
 import React from "react";
 import "./ApointmentOverview.css";
-import { Aux } from "../hoc/aux";
+import { Aux } from "../hoc/_aux";
 
 const ApointmentOverview = (props) => {
   return (

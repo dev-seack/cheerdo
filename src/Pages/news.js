@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { Aux } from "../Components/hoc/aux";
+import { Aux } from "../Components/hoc/_aux";
 
 import { SectionHeadline } from "../Components/Text/SectionHeadline";
 import { NewsPreview } from "../Components/NewsPreview";

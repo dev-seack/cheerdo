@@ -1,5 +1,5 @@
 import React from "react";
-import { Aux } from "../../hoc/aux";
+import { Aux } from "../../hoc/_aux";
 import { PrimaryButton } from "../../Buttons/PrimaryButton";
 import "../../HomeComponents/ContactForm";
 import "./FormComponent.css";

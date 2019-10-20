@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Aux } from "../Components/hoc/aux";
+import { Aux } from "../Components/hoc/_aux";
 import { Trainingsplan } from "../Components/Trainingsplan";
 import { MapComponent } from "../Components/ProbetrainingComponents/Maps";
 import { FormComponent } from "../Components/ProbetrainingComponents/FormComponent";

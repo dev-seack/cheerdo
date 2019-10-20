@@ -1,6 +1,6 @@
 import React from "react";
 import "./SectionHeadline.css";
-import { Aux } from "../../hoc/aux";
+import { Aux } from "../../hoc/_aux";
 
 const SectionHeadline = (props) => {
   return (

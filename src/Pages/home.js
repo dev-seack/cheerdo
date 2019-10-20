@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Aux } from "../Components/hoc/aux";
+import { Aux } from "../Components/hoc/_aux";
 import { Hero } from "../Components/HomeComponents/Hero";
 import { News } from "../Components/HomeComponents/News";
 import { InstagramFeed } from "../Components/HomeComponents/InstagramFeed";
