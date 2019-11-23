@@ -1,0 +1,17 @@
+name: Publish Docker
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Publish to Registry
+      uses: elgohr/Publish-Docker-Github-Action@2.8
+      with:
+        name: dev-seack/cheerdo/frontend
+        #username: ${{ secrets.DOCKER_USERNAME }}
+        username: dev-seack
+        password: ${{ secrets.GITHUB_TOKEN }}
+        registry: docker.pkg.github.com
+        dockerfile: docker/Dockerfile
+        tag_names: true
