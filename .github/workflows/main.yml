@@ -15,3 +15,21 @@ jobs:
         registry: docker.pkg.github.com
         dockerfile: docker/Dockerfile
         tag_names: true
+#    - name: Deploy on production
+#      uses: appleboy/ssh-action@master
+#      env:
+#        DOCKER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        DOCKER_HOST: docker.pkg.github.com
+#        DOCKER_USER: dev-seack
+#      with:
+#        host: ${{ secrets.PRD_HOST }}
+#        username: ${{ secrets.PRD_USERNAME }}
+#        key: ${{ secrets.KEY }}
+#        envs: [DOCKER_TOKEN, DOCKER_USER, DOCKER_HOST]
+#        script: |
+#          cd /opt/docker/ucs-website
+#          docker login --username $DOCKER_USER --password=$DOCKER_TOKEN $DOCKER_HOST
+#          docker-compose pull
+#          docker-compose build
+#          docker-compose up --force-recreate -d
+#          pwd
