@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Hero.css";
-import video from "../../../assets/homeVideo.mp4";
+import video from "../../../assets/homeVideoNoAudio.mp4";
 import poster from "../../../assets/homeVideo-poster.jpeg";
 import headline from "../../../assets/united-cheer-sports-schriftzug.svg";
 import instagramLogo from "../../../assets/united-cheer-sports-instagram.svg";
