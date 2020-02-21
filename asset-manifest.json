@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c55c8a86.chunk.css",
-    "main.js": "/static/js/main.9da5521b.chunk.js",
-    "main.js.map": "/static/js/main.9da5521b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cd819f53.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cd819f53.js.map",
+    "main.css": "/static/css/main.e5013a9c.chunk.css",
+    "main.js": "/static/js/main.c3c6357e.chunk.js",
+    "main.js.map": "/static/js/main.c3c6357e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.54edee9e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.54edee9e.js.map",
     "static/css/2.0ed265e4.chunk.css": "/static/css/2.0ed265e4.chunk.css",
-    "static/js/2.803ef02f.chunk.js": "/static/js/2.803ef02f.chunk.js",
-    "static/js/2.803ef02f.chunk.js.map": "/static/js/2.803ef02f.chunk.js.map",
+    "static/js/2.79330e09.chunk.js": "/static/js/2.79330e09.chunk.js",
+    "static/js/2.79330e09.chunk.js.map": "/static/js/2.79330e09.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a31bc4d89bd3d7cb946c36ea43eab0b1.js": "/precache-manifest.a31bc4d89bd3d7cb946c36ea43eab0b1.js",
+    "precache-manifest.4a3396054832e7bf829c38610bf98722.js": "/precache-manifest.4a3396054832e7bf829c38610bf98722.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0ed265e4.chunk.css.map": "/static/css/2.0ed265e4.chunk.css.map",
-    "static/css/main.c55c8a86.chunk.css.map": "/static/css/main.c55c8a86.chunk.css.map",
+    "static/css/main.e5013a9c.chunk.css.map": "/static/css/main.e5013a9c.chunk.css.map",
+    "static/js/2.79330e09.chunk.js.LICENSE.txt": "/static/js/2.79330e09.chunk.js.LICENSE.txt",
     "static/media/PageNotFound.svg": "/static/media/PageNotFound.550fbbb5.svg",
     "static/media/homeVideo-poster.jpeg": "/static/media/homeVideo-poster.1740b8fa.jpeg",
     "static/media/homeVideo.mp4": "/static/media/homeVideo.12561b61.mp4",
@@ -47,5 +48,12 @@
     "static/media/united-cheer-sports-mobile-menu-toggle-button.svg": "/static/media/united-cheer-sports-mobile-menu-toggle-button.449f920a.svg",
     "static/media/united-cheer-sports-mobile-menu-training.svg": "/static/media/united-cheer-sports-mobile-menu-training.94ad85aa.svg",
     "static/media/united-cheer-sports-schriftzug.svg": "/static/media/united-cheer-sports-schriftzug.e2550bfa.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54edee9e.js",
+    "static/css/2.0ed265e4.chunk.css",
+    "static/js/2.79330e09.chunk.js",
+    "static/css/main.e5013a9c.chunk.css",
+    "static/js/main.c3c6357e.chunk.js"
+  ]
 }
