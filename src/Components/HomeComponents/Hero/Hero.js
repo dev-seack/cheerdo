@@ -15,8 +15,8 @@ const Hero = props => {
       <ReactPlayer
         url={video}
         className='VideoBackground'
-        width='100%' height='100%'
-        playing loop muted
+        width='auto' height='auto'
+        playing loop muted volume="1"
         config={{
           file: {
             attributes: {
@@ -32,7 +32,7 @@ const Hero = props => {
           alt="United Cheer Sports e.V. Dortmund Schriftzug, Cheeleading, Cheerdance, Sport in Dortmund"
         />
         <p className="HeroSubline">
-          Cheerleading und Cheerdance sind eigenst&auml;ndige
+          Chheerleading und Cheerdance sind eigenst&auml;ndige
           Wettkampfsportarten und vereinen Turnen, Akrobatik und Tanz mit
           verschiedenen Schwerpunkten.
         </p>
