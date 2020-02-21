@@ -40,12 +40,12 @@ class InstagramFeed extends React.Component {
   }
 
   render() {
-    const showInstaFeed = this.state.showFeed;
-    let instaFeed;
+    // const showInstaFeed = this.state.showFeed;
+    // let instaFeed;
 
-    if (showInstaFeed) {
-      instaFeed = <div id="instafeed" />;
-    }
+    // if (showInstaFeed) {
+    //   instaFeed = <div id="instafeed"></div>;
+    // }
 
     return (
       <div className="InstagramFeedContainer">
@@ -55,7 +55,7 @@ class InstagramFeed extends React.Component {
           alt="United Cheer Sports e.V. Dortmund Schriftzug, Cheeleading, Cheerdance, Sport in Dortmund"
         />
         <div className="ContentContainer maxContainer">
-          {instaFeed}
+          <div id="instafeed"></div>
           <div className="InstagramFeedLinks">
             <SafeLink
               className="SocialLink"
