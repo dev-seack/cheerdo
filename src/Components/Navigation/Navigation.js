@@ -32,9 +32,9 @@ const Navigation = (props) => {
         </div>
         <ul className="ContactNavigation">
           <li>
-            <Link to="/startseite#kontakt">
+            <a href="/startseite#kontakt">
               <span data-hover="Kontakt">Kontakt</span>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 function ScrollToTop({ history }) {
   useEffect(() => {
-    const unlisten = history.listen(() => {
+    const unlisten = history.listen((location, action) => {
       window.scrollTo(0, 0);
     });
     return () => {
