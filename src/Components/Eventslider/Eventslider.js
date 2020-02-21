@@ -6,9 +6,10 @@ class Eventslider extends React.Component {
     super(props);
     this.state = {
       events: [
-        "Die Europameisterschaft startet am 01.05.2019",
-        "Die deutsche Meisterschaft startet am 11.08.2019",
-        "Die Weltmeisterschaft am 13.03.2019 in Colorado"
+        "SALC West in Düsseldorf 20.06.2020",
+        "Die deutsche Meisterschaft am 28.03.2020 in Riesa",
+        "ECC (1) im Movie Park in Bottrop am 23.05.2020 & 24.05.2020",
+        "ECC (2) im Movie Park in Bottrop am 30.05.2020 & 31.05.2020"
       ],
       duration: 25000
     };
@@ -36,7 +37,7 @@ class Eventslider extends React.Component {
 
   checkForCollision() {
     let activeElements = document.querySelectorAll(".Eventslider p.active");
-    activeElements.forEach((ele) => {
+    activeElements.forEach(ele => {
       if (ele.getBoundingClientRect().x >= window.innerWidth) {
         ele.classList.remove("active");
         ele.classList.add("reset");

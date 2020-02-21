@@ -29,7 +29,7 @@ const ApointmentOverview = props => {
         <tr>
           <td>20.06.2020</td>
           <td>
-            Summer All Level Championship West in. Der Mitsubishi Electric Hall
+            Summer All Level Championship West in der Mitsubishi Electric Hall
             in D&uuml;sseldorf
           </td>
         </tr>
