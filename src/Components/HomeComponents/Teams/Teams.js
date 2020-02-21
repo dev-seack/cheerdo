@@ -23,10 +23,8 @@ class Teams extends React.Component {
     return (
       <Aux>
         <SectionHeadline headline="Wähle dein TEAM">
-          Von den Silver Smarties bis zu den Steelers, Cheerdancer und
-          Cheerleader. Jeder findet sein richtiges Team. Wir wuerden uns riesig
-          freuen dich beim Probetraining begruessen zu duerfen. Schau vorbei und
-          wähle dein Team.
+          Wir haben in den Bereichen Cheerleading und Cheerdance Teams, in 3
+          verschiedenen Altersgruppen.
         </SectionHeadline>
         <div className="TeamContainer">
           <Member

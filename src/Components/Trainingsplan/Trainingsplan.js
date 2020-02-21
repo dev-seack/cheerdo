@@ -40,7 +40,7 @@ class Trainingsplan extends React.Component {
           },
           {
             team: "Silver Spirit Dancer",
-            time: "19:30 - 21:30",
+            time: "19:00 - 21:30",
             location:
               "Sporthalle Gertrud Bäumer Realschule Erwinstr. Ecke Schaeffelstr."
           }
@@ -56,6 +56,12 @@ class Trainingsplan extends React.Component {
             team: "Silverlicious",
             time: "17:30 - 19:30",
             location: "Helmholtz Gymnasium Dortmund"
+          },
+          {
+            team: "Steelers",
+            time: "19:00 - 21:00",
+            location:
+              "Sporthalle Gertrud Bäumer Realschule Erwinstr. Ecke Schaeffelstr."
           }
         ],
         thursday: [
@@ -67,7 +73,7 @@ class Trainingsplan extends React.Component {
           },
           {
             team: "Silver Spirit Dancer",
-            time: "19:30 - 21:30",
+            time: "19:00 - 21:30",
             location:
               "Sporthalle Gertrud Bäumer Realschule Erwinstr. Ecke Schaeffelstr."
           }
@@ -124,10 +130,8 @@ class Trainingsplan extends React.Component {
     return (
       <Aux>
         <SectionHeadline headline="Training">
-          Wir wuerden uns riesig freuen dich beim Probetraining begruessen zu
-          sehen. Schau einfach in unserem Trainingsplan wann es fuer dich am
-          besten passt und melde dich zum Probetraining an und sei schon bald
-          ein teil von United Cheer Sports Dortmund.
+          Wir würden uns freuen dich bei einem Probetraining begrüßen zu dürfen.
+          Sei schon bald Teil von United Cheer Sports e. V. Dortmund.
         </SectionHeadline>
         <div className="TrainingsplanContainer ContentContainer">
           <img

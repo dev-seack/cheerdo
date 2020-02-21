@@ -10,7 +10,7 @@ import { ApointmentOverview } from "../Components/ApointmentOverview";
 // import { PrimaryButton } from "../Components/Buttons/PrimaryButton";
 import { Link } from "react-router-dom";
 
-const NewsOverview = (props) => {
+const NewsOverview = props => {
   const articlesID = 1;
 
   return (
@@ -18,7 +18,7 @@ const NewsOverview = (props) => {
       <SectionHeadline headline="Termine">
         <ApointmentOverview></ApointmentOverview>
       </SectionHeadline>
-      <SectionHeadline headline="Neues von UCS">
+      {/* <SectionHeadline headline="Neues von UCS">
         Wir nehmen regelmaessig an Wettkaempfen, Vorstellungen, extern sowie
         Intern teil. Ausserdem teilen wir gerne Trainingseinheiten, Wettkaempfe,
         Veranstalltungen und viele weitere spannende Dinge rund um und ueber den
@@ -34,7 +34,7 @@ const NewsOverview = (props) => {
             haguda
           </NewsPreview>
         </Link>
-      </div>
+      </div> */}
     </Aux>
   );
 };
