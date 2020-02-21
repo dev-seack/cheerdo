@@ -3,13 +3,16 @@ import "./Footer.css";
 
 import { SafeLink } from "../SafeLink";
 
+import satzung from "../../assets/documents/satzung.pdf";
+import ordnung from "../../assets/documents/ordnung.pdf";
+
 import footerlogo from "../../assets/united-cheer-sports-dortmund-footer-logo.png";
 import instagramLogo from "../../assets/united-cheer-sports-instagram.svg";
 import facebookLogo from "../../assets/united-cheer-sports-facebook.svg";
 import dosbLogo from "../../assets/united-cheer-sports-dortmund-dosb-mitglied.svg";
 import ccvdLogo from "../../assets/united-cheer-sports-dortmund-ccvd-mitglied.svg";
 
-const Footer = (props) => {
+const Footer = props => {
   const year = new Date().getFullYear();
   return (
     <div className="Footer">
@@ -34,6 +37,17 @@ const Footer = (props) => {
           </SafeLink>
           <SafeLink to="/datenschutzerklaerung" target="_self">
             <span data-hover="DATENSCHUTZERKLÄRUNG">DATENSCHUTZERKLÄRUNG</span>
+          </SafeLink>
+        </div>
+        <div
+          className="FullContainer FooterNavigation"
+          style={{ marginTop: "40px" }}
+        >
+          <SafeLink to={satzung} target="_self">
+            <span data-hover="SATZUNG">SATZUNG</span>
+          </SafeLink>
+          <SafeLink to={ordnung} target="_self">
+            <span data-hover="BEITRAGSORDNUNG">BEITRAGSORDNUNG</span>
           </SafeLink>
         </div>
         <div className="SportbundContainer">

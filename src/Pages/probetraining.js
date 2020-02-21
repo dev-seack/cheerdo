@@ -6,20 +6,18 @@ import { MapComponent } from "../Components/ProbetrainingComponents/Maps";
 import { FormComponent } from "../Components/ProbetrainingComponents/FormComponent";
 import { SectionHeadline } from "../Components/Text/SectionHeadline";
 
-const Probetraining = (props) => {
+const Probetraining = props => {
   return (
     <Aux maxContainer>
       <SectionHeadline headline="zum probetraining anmelden">
-        Wir würden uns riesig freuen Dich beim Probetraining begrüßen zu dürfen.
-        Schau einfach in userem Trainingsplan wann es für dich am betsen passt
-        und melde dich zum Probetraining an. Sei schon bald ein teil von United
-        Cheer Sports Dortmund.
+        Wir w&uuml;rden uns freuen dich bei einem Probetraining begr&uuml;ßen zu
+        d&uuml;rfen. Sei schon bald Teil von United Cheer Sports e.V. Dortmund.
       </SectionHeadline>
       <FormComponent />
       <SectionHeadline headline="Hier sind wir">
-        Hier kannst du uns finden. Auf dem Trainingsplan weiter unten siehst du
-        die jeweiligen Teams und ihre Trainingsorte. Du kannst natürlich auch
-        jederzeit Fragen, welche Mannschaft, wo das naechste Training hat.
+        Auf dem Trainingsplan weiter unten siehst du die jeweiligen Teams und
+        ihre Trainingsorte. Bei Fragen kannst du dich jederzeit &uuml;ber das
+        Kontaktformular melden.
       </SectionHeadline>
       <MapComponent />
       <Trainingsplan />

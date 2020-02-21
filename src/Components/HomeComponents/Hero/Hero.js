@@ -8,7 +8,7 @@ import facebookLogo from "../../../assets/united-cheer-sports-facebook.svg";
 
 import { PrimaryButton } from "../../Buttons/PrimaryButton";
 
-const Hero = (props) => {
+const Hero = props => {
   return (
     <div className="HeroContainer">
       <div className="VideoBackground">
@@ -24,9 +24,9 @@ const Hero = (props) => {
           alt="United Cheer Sports e.V. Dortmund Schriftzug, Cheeleading, Cheerdance, Sport in Dortmund"
         />
         <p className="HeroSubline">
-          Cheerleading und Cheerdance sind selbstst&auml;ndige
-          Wettkampfsportarten und vereinen Turnen, Akrobatik und Tanz sowie
-          Anfeuerungsrufe.
+          Cheerleading und Cheerdance sind eigenst&auml;ndige
+          Wettkampfsportarten und vereinen Turnen, Akrobatik und Tanz mit
+          verschiedenen Schwerpunkten.
         </p>
         <p className="allTogether">Black White Green</p>
         <PrimaryButton text="werde teil von ucs" to="probetraining" />

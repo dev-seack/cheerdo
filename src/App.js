@@ -10,7 +10,9 @@ import { MobileNavigation } from "./Components/Navigation/Mobile/MobileNavigatio
 import { Home } from "./Pages/home";
 import { Probetraining } from "./Pages/probetraining";
 import { NewsOverview } from "./Pages/news";
-import { Article } from "./Components/Blog/Article";
+// import { Article } from "./Components/Blog/Article";
+import { Impressum } from "./Pages/impressum";
+import { Datenschutz } from "./Pages/datenschutz";
 import { NotFound } from "./Pages/NotFound";
 
 class App extends Component {
@@ -30,7 +32,13 @@ class App extends Component {
             <Route exact component={Home} path="/startseite" />
             <Route exact component={NewsOverview} path="/news" />
             <Route exact component={Probetraining} path="/probetraining" />
-            <Route exact path="/article/:articleId" component={Article} />
+            <Route exact component={Impressum} path="/impressum" />
+            <Route
+              exact
+              component={Datenschutz}
+              path="/datenschutzerklaerung"
+            />
+            {/* <Route exact path="/article/:articleId" component={Article} /> */}
             <Route component={NotFound} />
           </Switch>
           <Footer />
