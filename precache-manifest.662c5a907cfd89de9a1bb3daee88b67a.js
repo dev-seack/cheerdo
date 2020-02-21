@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d9f6ccf7aa2261e65638ac94692f00e",
+    "revision": "c1c3d1c218e8a8a2df54a86641950436",
     "url": "/cheerdo/index.html"
   },
   {
-    "revision": "4dbe5b6e765161fcd2ff",
+    "revision": "32803c29f490e3518ca4",
     "url": "/cheerdo/static/css/2.0ed265e4.chunk.css"
   },
   {
-    "revision": "bbb09238ebeca94936a2",
+    "revision": "8d872d20b63500edbe5e",
     "url": "/cheerdo/static/css/main.7d3d4515.chunk.css"
   },
   {
-    "revision": "4dbe5b6e765161fcd2ff",
-    "url": "/cheerdo/static/js/2.a178d706.chunk.js"
+    "revision": "32803c29f490e3518ca4",
+    "url": "/cheerdo/static/js/2.ef8a5ad9.chunk.js"
   },
   {
-    "revision": "bbb09238ebeca94936a2",
-    "url": "/cheerdo/static/js/main.83845870.chunk.js"
+    "revision": "8d872d20b63500edbe5e",
+    "url": "/cheerdo/static/js/main.d1efda99.chunk.js"
   },
   {
     "revision": "e7ca3e6b94dd00f32769",
