@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d172a03a79d0a367d71cc9d961f0e95",
+    "revision": "6b1bdb7bf26229361ce331db3537dfd0",
     "url": "/index.html"
   },
   {
-    "revision": "b325ad48ecd3510e63f7",
+    "revision": "debb352b8e080f8cb9ef",
     "url": "/static/css/2.0ed265e4.chunk.css"
   },
   {
-    "revision": "7a773bfa9e2129664f4d",
-    "url": "/static/css/main.4e944088.chunk.css"
+    "revision": "61aeff48affba63029d8",
+    "url": "/static/css/main.c55c8a86.chunk.css"
   },
   {
-    "revision": "b325ad48ecd3510e63f7",
-    "url": "/static/js/2.192e01fb.chunk.js"
+    "revision": "debb352b8e080f8cb9ef",
+    "url": "/static/js/2.803ef02f.chunk.js"
   },
   {
-    "revision": "7a773bfa9e2129664f4d",
-    "url": "/static/js/main.dc21e207.chunk.js"
+    "revision": "61aeff48affba63029d8",
+    "url": "/static/js/main.69754bfa.chunk.js"
   },
   {
     "revision": "04496fc9af7fca12cbcb",
@@ -36,8 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/homeVideo.12561b61.mp4"
   },
   {
+    "revision": "3dd90d5cdf09ca2732b11c7f9b239e56",
+    "url": "/static/media/mitgliedschaft.3dd90d5c.pdf"
+  },
+  {
     "revision": "6f6c642a008fe76d20df8889b215bf1a",
     "url": "/static/media/ordnung.6f6c642a.pdf"
+  },
+  {
+    "revision": "03c5e39bbb999d7d966e0fdcd5e028ae",
+    "url": "/static/media/probetraining.03c5e39b.pdf"
   },
   {
     "revision": "889bb8e5d97d644469b5d0dce9ff36d5",
@@ -46,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "58a91016fc9b9ae70bc4e1f4f48f51b1",
     "url": "/static/media/select-arrow.58a91016.svg"
+  },
+  {
+    "revision": "d408eebf059b8baf0d1d0682b19c7b6d",
+    "url": "/static/media/trainingsplan.d408eebf.pdf"
   },
   {
     "revision": "aa3691d27fb8bebaa25c68409596ff6c",
