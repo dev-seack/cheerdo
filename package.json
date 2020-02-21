@@ -20,7 +20,7 @@
     "state": "^0.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo unitedcheersports.de > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
