@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cheerdo/precache-manifest.76e54eb5a6d332efa06cc3ebb0047739.js"
+  "/cheerdo/precache-manifest.265ace18e815db703b53bc21ea9c00b6.js"
 );
 
 self.addEventListener('message', (event) => {
