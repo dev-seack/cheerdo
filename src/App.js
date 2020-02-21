@@ -12,6 +12,7 @@ import { Probetraining } from "./Pages/probetraining";
 import { NewsOverview } from "./Pages/news";
 import { Article } from "./Components/Blog/Article";
 import { NotFound } from "./Pages/NotFound";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <ScrollToTop />
         <div className="App">
           <Eventslider />
           <Navigation />
