@@ -14,6 +14,7 @@ import { NewsOverview } from "./Pages/news";
 import { Impressum } from "./Pages/impressum";
 import { Datenschutz } from "./Pages/datenschutz";
 import { NotFound } from "./Pages/NotFound";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 class App extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <ScrollToTop />
         <div className="App">
           <Eventslider />
           <Navigation />

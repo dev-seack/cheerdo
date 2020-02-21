@@ -7,7 +7,8 @@ import { Aux } from "../../hoc/_aux";
 
 const ContactForm = (props) => {
   return (
-    <Aux id="kontakt">
+    <Aux>
+      <div id="kontakt"></div>
       <SectionHeadline headline="Noch Fragen?">
         Bei offenen Fragen zum Probetraining, Kosten, Mitgliedschaften oder
         aenlichen kannst du uns jederzeit ueber unser Kontaktformular erreichen.
