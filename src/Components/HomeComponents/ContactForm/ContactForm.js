@@ -15,9 +15,11 @@ const ContactForm = (props) => {
         Wir werden dir so schnell wie moeglich deine Frage beantworten.
       </SectionHeadline>
       <form
+        action="https://formcarry.com/s/5bEG9QjSBSE"
         method="POST"
         className="ContactForm ContentContainer"
         autoComplete="off"
+        accept-charset="UTF-8"
       >
         <div className="FormGroup">
           <label htmlFor="vorname">Vorname*</label>
@@ -39,6 +41,8 @@ const ContactForm = (props) => {
           <label htmlFor="nachricht">Deine Nachricht an uns*</label>
           <textarea name="nachricht" id="nachricht" required />
         </div>
+        <input type="hidden" name="_gotcha" />
+        {/* <!-- use this to prevent spam --> */}
         <PrimaryButton submit text="Absenden" />
       </form>
     </Aux>
