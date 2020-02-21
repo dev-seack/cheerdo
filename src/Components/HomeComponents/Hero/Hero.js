@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import video from "../../../assets/homeVideo.mp4";
+import ReactPlayer from 'react-player'
 import poster from "../../../assets/homeVideo-poster.jpeg";
 import headline from "../../../assets/united-cheer-sports-schriftzug.svg";
 import instagramLogo from "../../../assets/united-cheer-sports-instagram.svg";
@@ -11,12 +12,19 @@ import { PrimaryButton } from "../../Buttons/PrimaryButton";
 const Hero = props => {
   return (
     <div className="HeroContainer">
-      <div className="VideoBackground">
-        <video loop muted autoPlay poster={poster}>
-          <source src={video} type="video/mp4" />
-          Dein Browser unterstuetzt keine Videos
-        </video>
-      </div>
+      <ReactPlayer
+        url={video}
+        className='VideoBackground'
+        width='100%' height='100%'
+        playing loop muted
+        config={{
+          file: {
+            attributes: {
+              poster: {poster}
+            }
+          }
+        }}
+      />
       <div className="InnerHeroContainer">
         <img
           className="HeroHeadline"
