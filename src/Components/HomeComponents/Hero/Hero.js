@@ -16,11 +16,15 @@ class Hero extends React.Component {
     };
   }
 
+  componentDidMount() {
+    this.refs.video.play();
+  }
+
   render() {
     return (
       <div className="HeroContainer">
         <div className="VideoBackground">
-          <video loop muted={this.state.isVideoMuted} autoPlay poster={poster}>
+          <video ref="video" loop muted={this.state.isVideoMuted} autoPlay poster={poster}>
             <source src={video} type="video/mp4" />
             Dein Browser unterstuetzt keine Videos
           </video>
