@@ -9,7 +9,7 @@ import { SectionHeadline } from "../Components/Text/SectionHeadline";
 const Probetraining = props => {
   return (
     <Aux maxContainer>
-      <SectionHeadline headline="zum probetraining anmelden">
+      <SectionHeadline headline="anmelden">
         Wir w&uuml;rden uns freuen dich bei einem Probetraining begr&uuml;ßen zu
         d&uuml;rfen. Sei schon bald Teil von United Cheer Sports e.V. Dortmund.
       </SectionHeadline>

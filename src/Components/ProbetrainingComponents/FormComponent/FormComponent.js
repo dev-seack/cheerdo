@@ -1,12 +1,15 @@
 import React from "react";
 import { Aux } from "../../hoc/_aux";
 import { PrimaryButton } from "../../Buttons/PrimaryButton";
+import { SafeLink } from "../../SafeLink";
 import "../../HomeComponents/ContactForm";
 import "./FormComponent.css";
+import mitgliedschaft from "../../../assets/documents/mitgliedschaft.pdf";
+import probetraining from "../../../assets/documents/probetraining.pdf";
 
 import dateFormat from "dateformat";
 
-const FormComponent = (props) => {
+const FormComponent = props => {
   let date = new Date();
   date.setMonth(date.getMonth() - 12 * 5);
 
@@ -19,15 +22,29 @@ const FormComponent = (props) => {
         beim Probetraining mitzubringen. Der Antrag wird nach dem Ausfuellen als
         PDF erstellt und kann heruntergeladen oder ausgedruckt werden.
       </p>
-      <p>
+      <div className="TrainingsplanButtonGroup ContentContainer">
+        <SafeLink
+          to={mitgliedschaft}
+          target="_self"
+          className="PrimaryButton"
+          data-text="mitgliedschaft"
+        ></SafeLink>
+        <SafeLink
+          to={probetraining}
+          target="_self"
+          className="PrimaryButton"
+          data-text="probetraining"
+        ></SafeLink>
+      </div>
+      {/* <p>
         Hiermit beantrage ich für mich / mein Kind die Teilnahme am kostenlosen
         Probetraining des United Cheer Sports e.V. Die Dauer des Probetrainings
         entspricht 4 Trainingseinheiten. Zum ersten aktiven Probetraining ist
         dieser Antrag unterschrieben (bei minderjährigen durch einen
         Erziehungsberechtigten) beim Trainer anzugeben.
-      </p>
+      </p> */}
 
-      <form method="POST">
+      {/* <form method="POST">
         <div className="FormGroup">
           <label htmlFor="childsFirstname">Vorname des Kindes</label>
           <input
@@ -99,7 +116,7 @@ const FormComponent = (props) => {
           <textarea name="message" id="message" />
         </div>
         <PrimaryButton submit text="Herunterladen" />
-      </form>
+      </form> */}
     </Aux>
   );
 };

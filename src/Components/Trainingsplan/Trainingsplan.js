@@ -6,6 +6,8 @@ import { Aux } from "../hoc/_aux";
 import logo from "../../assets/united-cheer-sports-dortmund-footer-logo.png";
 import { Trainingstag } from "./Trainingstag";
 import { PrimaryButton } from "../Buttons/PrimaryButton";
+import trainingsplan from "../../assets/documents/trainingsplan.pdf";
+import { SafeLink } from "../SafeLink";
 
 class Trainingsplan extends React.Component {
   constructor(props) {
@@ -171,7 +173,12 @@ class Trainingsplan extends React.Component {
           </div>
         </div>
         <div className="TrainingsplanButtonGroup ContentContainer">
-          <PrimaryButton to="" text="Download" />
+          <SafeLink
+            to={trainingsplan}
+            target="_self"
+            className="PrimaryButton"
+            data-text="download"
+          ></SafeLink>
           <PrimaryButton to="probetraining" text="Probetraining" />
         </div>
       </Aux>
