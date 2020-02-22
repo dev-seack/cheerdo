@@ -21,7 +21,7 @@ class Eventslider extends React.Component {
       <div className="Eventslider">
         <Ticker offset="run-in" direction="toRight">
           {() => (
-            <div style={{ whiteSpace: "pre" }}>             - {this.state.events.join(" -                          - ")}</div>
+            <div style={{ whiteSpace: "pre" }}>             - {this.state.events.join(" -                          - ")} -             </div>
           )}
         </Ticker>
       </div>
