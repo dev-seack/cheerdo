@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "231b2f8f829c0d0fec7166422f1c00c9",
+    "revision": "a449f49820ba97a3aafcb5e496097a6c",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.0ed265e4.chunk.css"
   },
   {
-    "revision": "5819106000ddd494457d",
+    "revision": "8d8663102c173d5dde58",
     "url": "/static/css/main.4cdde1a3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c05ccfcc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5819106000ddd494457d",
-    "url": "/static/js/main.9a2d2254.chunk.js"
+    "revision": "8d8663102c173d5dde58",
+    "url": "/static/js/main.8c1fc6e3.chunk.js"
   },
   {
     "revision": "6e7d85ad969107dd34f7",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ucs-dancingsmarties.aa3691d2.png"
   },
   {
-    "revision": "91a39101c155fe2748fd4d41bb1569ea",
-    "url": "/static/media/ucs-dokumente.91a39101.zip"
+    "revision": "075c92c249a3703816d9b0f20a7e01b1",
+    "url": "/static/media/ucs-dokumente.075c92c2.zip"
   },
   {
     "revision": "5695f87a968dfb085c556d65730e58aa",
