@@ -11,8 +11,8 @@ const ContactForm = (props) => {
       <div id="kontakt"></div>
       <SectionHeadline headline="Noch Fragen?">
         Bei offenen Fragen zum Probetraining, Kosten, Mitgliedschaften oder
-        aenlichen kannst du uns jederzeit ueber unser Kontaktformular erreichen.
-        Wir werden dir so schnell wie moeglich deine Frage beantworten.
+        &auml;hnlichem kannst du uns jederzeit &uuml;ber unser Kontaktformular erreichen.
+        Wir werden dir so schnell wie m&ouml;glich deine Frage beantworten.
       </SectionHeadline>
       <form
         action="https://formcarry.com/s/5bEG9QjSBSE"

@@ -18,8 +18,8 @@ const FormComponent = props => {
   return (
     <Aux isContentContainer>
       <p className="importantMessage">
-        Wir moechten Sie/Dich bitten den Antrag auszufuellen und Unterschrieben
-        beim Probetraining mitzubringen. Der Antrag wird nach dem Ausfuellen als
+        Wir m&ouml;chten Sie/Dich bitten den Antrag auszuf&uuml;llen und unterschrieben
+        beim Probetraining mitzubringen. Der Antrag wird nach dem Ausf&uuml;llen als
         PDF erstellt und kann heruntergeladen oder ausgedruckt werden.
       </p>
       <div className="TrainingsplanButtonGroup ContentContainer">
