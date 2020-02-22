@@ -86,7 +86,7 @@ const Footer = props => {
           <p>Copyright {year} United Cheer Sports e.V. Dortmund</p>
         </div>
         <div className="HalfContainer FooterCopyright">
-          <p>Made with Love in Germany by Legarti</p>
+          <p>Made with Love in Germany by <a href="https://legarti.agency">legarti.agency</a></p>
         </div>
       </div>
     </div>
