@@ -1,5 +1,6 @@
 import React from "react";
 import "./Eventslider.css";
+import Ticker from 'react-ticker'
 
 class Eventslider extends React.Component {
   constructor(props) {
@@ -15,54 +16,14 @@ class Eventslider extends React.Component {
     };
   }
 
-  componentDidMount() {
-    let elements = document.querySelectorAll(".Eventslider p");
-    let counter = 0;
-    const delay = Math.floor(this.state.duration / this.state.events.length);
-
-    const slideHandler = () => {
-      elements[counter % this.state.events.length].classList.add("active");
-      counter++;
-      this.checkForCollision();
-    };
-
-    slideHandler();
-
-    this.slideInterval = setInterval(slideHandler, delay);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.slideInterval);
-  }
-
-  checkForCollision() {
-    let activeElements = document.querySelectorAll(".Eventslider p.active");
-    activeElements.forEach(ele => {
-      if (ele.getBoundingClientRect().x >= window.innerWidth) {
-        ele.classList.remove("active");
-        ele.classList.add("reset");
-        ele.classList.remove("reset");
-      }
-    });
-  }
-
   render() {
     return (
       <div className="Eventslider">
-        {this.state.events.map((event, index) => {
-          return (
-            <p
-              style={{
-                width: window.innerWidth / this.state.events.length,
-                minWidth: "450px",
-                left: -(window.innerWidth / this.state.events.length) - 500
-              }}
-              key={index}
-            >
-              - {event} -
-            </p>
-          );
-        })}
+        <Ticker offset="run-in" direction="toRight">
+          {() => (
+            <div style={{ whiteSpace: "pre" }}>             - {this.state.events.join(" -                          - ")}</div>
+          )}
+        </Ticker>
       </div>
     );
   }

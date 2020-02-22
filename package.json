@@ -17,6 +17,7 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "^3.4.0",
     "react-snap": "^1.23.0",
+    "react-ticker": "^1.2.2",
     "state": "^0.2.0"
   },
   "scripts": {
