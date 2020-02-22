@@ -13,9 +13,10 @@ const Impressum = props => {
           <li>Schüruferstr. 301 44287 Dortmund</li>
           <li>Mail: info@united-cheer-sports.de</li>
           <li>
-            <p>Vorstand: Leonie Langkabel</p>
-            <p>1. Vorsitzende Kirsten Lorenzo</p>
-            <p>2.Vorsitzende Elisabete Santos Lopez , Kassenwart</p>
+            <p>Vorstand:</p>
+            <p>Leonie Langkabel , 1. Vorsitzende</p>
+            <p>Kirsten Lorenzo , 2. Vorsitzende</p>
+            <p>Elisabete Santos Lopez , Kassenwart</p>
           </li>
           <li>
             <p>Angemeldet im Vereinsregister Dortmund VR-Nr. 6454 Finanzamt</p>
