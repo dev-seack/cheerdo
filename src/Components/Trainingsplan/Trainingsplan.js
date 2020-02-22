@@ -7,6 +7,7 @@ import logo from "../../assets/united-cheer-sports-dortmund-footer-logo.png";
 import { Trainingstag } from "./Trainingstag";
 import { PrimaryButton } from "../Buttons/PrimaryButton";
 import trainingsplan from "../../assets/documents/trainingsplan.pdf";
+import docBundle from "../../assets/documents/ucs-dokumente.zip";
 import { SafeLink } from "../SafeLink";
 
 class Trainingsplan extends React.Component {
@@ -174,7 +175,7 @@ class Trainingsplan extends React.Component {
         </div>
         <div className="TrainingsplanButtonGroup ContentContainer">
           <SafeLink
-            to={trainingsplan}
+            to={docBundle}
             target="_self"
             className="PrimaryButton"
             data-text="download"
