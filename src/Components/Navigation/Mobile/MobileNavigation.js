@@ -46,7 +46,7 @@ class MobileNavigation extends React.Component {
             alt="united-cheer-sports dortmund, cheerleader, cheerdancer,cheerleading,sport in dortmund"
           />
           <ul className="MenuItemContainer">
-            <SafeLink to="startseite">
+            <SafeLink to="/startseite">
               <li className="MenuItem">
                 <img
                   src={home}
@@ -56,7 +56,7 @@ class MobileNavigation extends React.Component {
                 <span className="MenuItemName">Startseite</span>
               </li>
             </SafeLink>
-            <SafeLink to="news">
+            <SafeLink to="/news">
               <li className="MenuItem">
                 <img
                   src={news}
@@ -66,7 +66,7 @@ class MobileNavigation extends React.Component {
                 <span className="MenuItemName">News</span>
               </li>
             </SafeLink>
-            <SafeLink to="probetraining">
+            <SafeLink to="/probetraining">
               <li className="MenuItem">
                 <img
                   src={training}
@@ -76,7 +76,7 @@ class MobileNavigation extends React.Component {
                 <span className="MenuItemName">Probetraining</span>
               </li>
             </SafeLink>
-            <SafeLink to="startseite#contact">
+            <SafeLink to="/startseite#kontakt">
               <li className="MenuItem">
                 <img
                   src={contact}
