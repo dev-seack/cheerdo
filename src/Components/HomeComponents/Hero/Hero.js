@@ -11,32 +11,30 @@ import { PrimaryButton } from "../../Buttons/PrimaryButton";
 class Hero extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      isVideoMuted: true
-    };
   }
 
-  componentDidMount() {
-    this.refs.video.play();
-  }
+  createVideoBannerMarkup() {
+    return {
+      __html: `<video loop muted autoPlay poster=${poster}>
+                <source src=${video} type="video/mp4" />
+                Dein Browser unterstuetzt keine Videos
+              </video>`
+    };
+  };
 
   render() {
     return (
       <div className="HeroContainer">
-        <div className="VideoBackground">
-          <video ref="video" loop muted={this.state.isVideoMuted} autoPlay poster={poster}>
-            <source src={video} type="video/mp4" />
-            Dein Browser unterstuetzt keine Videos
-          </video>
+        <div className="VideoBackground" dangerouslySetInnerHTML={this.createVideoBannerMarkup()}>
         </div>
         <div className="InnerHeroContainer">
           <img
             className="HeroHeadline"
             src={headline}
-            alt="United Cheer Sports e.V. Dortmund Schriftzug, Cheeleading, Cheerdance, Sport in Dortmund"
+            alt="United Cheer Sports e.V. Dortmund Schriftzug, Cheerleading, Cheerdance, Sport in Dortmund"
           />
           <p className="HeroSubline">
-            Chheerleading und Cheerdance sind eigenst&auml;ndige
+            Cheerleading und Cheerdance sind eigenst&auml;ndige
             Wettkampfsportarten und vereinen Turnen, Akrobatik und Tanz mit
             verschiedenen Schwerpunkten.
           </p>
