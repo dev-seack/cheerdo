@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf880c9e.chunk.css",
-    "main.js": "/static/js/main.6f802faa.chunk.js",
-    "main.js.map": "/static/js/main.6f802faa.chunk.js.map",
+    "main.css": "/static/css/main.4cdde1a3.chunk.css",
+    "main.js": "/static/js/main.9a2d2254.chunk.js",
+    "main.js.map": "/static/js/main.9a2d2254.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.54edee9e.js",
     "runtime-main.js.map": "/static/js/runtime-main.54edee9e.js.map",
     "static/css/2.0ed265e4.chunk.css": "/static/css/2.0ed265e4.chunk.css",
-    "static/js/2.f4bf9e2b.chunk.js": "/static/js/2.f4bf9e2b.chunk.js",
-    "static/js/2.f4bf9e2b.chunk.js.map": "/static/js/2.f4bf9e2b.chunk.js.map",
+    "static/js/2.c05ccfcc.chunk.js": "/static/js/2.c05ccfcc.chunk.js",
+    "static/js/2.c05ccfcc.chunk.js.map": "/static/js/2.c05ccfcc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c3327c9a120adcab86340822d74f6b08.js": "/precache-manifest.c3327c9a120adcab86340822d74f6b08.js",
+    "precache-manifest.a51d924bcb22798ece348ed25d1219de.js": "/precache-manifest.a51d924bcb22798ece348ed25d1219de.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0ed265e4.chunk.css.map": "/static/css/2.0ed265e4.chunk.css.map",
-    "static/css/main.cf880c9e.chunk.css.map": "/static/css/main.cf880c9e.chunk.css.map",
-    "static/js/2.f4bf9e2b.chunk.js.LICENSE.txt": "/static/js/2.f4bf9e2b.chunk.js.LICENSE.txt",
+    "static/css/main.4cdde1a3.chunk.css.map": "/static/css/main.4cdde1a3.chunk.css.map",
+    "static/js/2.c05ccfcc.chunk.js.LICENSE.txt": "/static/js/2.c05ccfcc.chunk.js.LICENSE.txt",
     "static/media/PageNotFound.svg": "/static/media/PageNotFound.550fbbb5.svg",
     "static/media/homeVideo-poster.jpeg": "/static/media/homeVideo-poster.1740b8fa.jpeg",
     "static/media/homeVideoNoAudio.mp4": "/static/media/homeVideoNoAudio.37376422.mp4",
@@ -22,8 +22,9 @@
     "static/media/probetraining.pdf": "/static/media/probetraining.03c5e39b.pdf",
     "static/media/satzung.pdf": "/static/media/satzung.889bb8e5.pdf",
     "static/media/ContactForm.css": "/static/media/select-arrow.58a91016.svg",
-    "static/media/trainingsplan.pdf": "/static/media/trainingsplan.d408eebf.pdf",
+    "static/media/trainingsplan.pdf": "/static/media/trainingsplan.8dec9336.pdf",
     "static/media/ucs-dancingsmarties.png": "/static/media/ucs-dancingsmarties.aa3691d2.png",
+    "static/media/ucs-dokumente.zip": "/static/media/ucs-dokumente.91a39101.zip",
     "static/media/ucs-silverlicious.png": "/static/media/ucs-silverlicious.5695f87a.png",
     "static/media/ucs-silversmarties.png": "/static/media/ucs-silversmarties.4a0afa1e.png",
     "static/media/ucs-silverspiritdancer.png": "/static/media/ucs-silverspiritdancer.c8ebec60.png",
@@ -52,8 +53,8 @@
   "entrypoints": [
     "static/js/runtime-main.54edee9e.js",
     "static/css/2.0ed265e4.chunk.css",
-    "static/js/2.f4bf9e2b.chunk.js",
-    "static/css/main.cf880c9e.chunk.css",
-    "static/js/main.6f802faa.chunk.js"
+    "static/js/2.c05ccfcc.chunk.js",
+    "static/css/main.4cdde1a3.chunk.css",
+    "static/js/main.9a2d2254.chunk.js"
   ]
 }

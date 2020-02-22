@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afb0b5bfd0e62e3a02fa34d8ec553ef1",
+    "revision": "231b2f8f829c0d0fec7166422f1c00c9",
     "url": "/index.html"
   },
   {
-    "revision": "eb15332ef9aa097d22a6",
+    "revision": "86ad616375111e83ab4e",
     "url": "/static/css/2.0ed265e4.chunk.css"
   },
   {
-    "revision": "f420a020514e473b9c12",
-    "url": "/static/css/main.cf880c9e.chunk.css"
+    "revision": "5819106000ddd494457d",
+    "url": "/static/css/main.4cdde1a3.chunk.css"
   },
   {
-    "revision": "eb15332ef9aa097d22a6",
-    "url": "/static/js/2.f4bf9e2b.chunk.js"
+    "revision": "86ad616375111e83ab4e",
+    "url": "/static/js/2.c05ccfcc.chunk.js"
   },
   {
     "revision": "7eac5df8fd17c53ea42b25fbf2237fb3",
-    "url": "/static/js/2.f4bf9e2b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c05ccfcc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f420a020514e473b9c12",
-    "url": "/static/js/main.6f802faa.chunk.js"
+    "revision": "5819106000ddd494457d",
+    "url": "/static/js/main.9a2d2254.chunk.js"
   },
   {
     "revision": "6e7d85ad969107dd34f7",
@@ -60,12 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/select-arrow.58a91016.svg"
   },
   {
-    "revision": "d408eebf059b8baf0d1d0682b19c7b6d",
-    "url": "/static/media/trainingsplan.d408eebf.pdf"
+    "revision": "8dec93360564383c75aef0c8e24af1ae",
+    "url": "/static/media/trainingsplan.8dec9336.pdf"
   },
   {
     "revision": "aa3691d27fb8bebaa25c68409596ff6c",
     "url": "/static/media/ucs-dancingsmarties.aa3691d2.png"
+  },
+  {
+    "revision": "91a39101c155fe2748fd4d41bb1569ea",
+    "url": "/static/media/ucs-dokumente.91a39101.zip"
   },
   {
     "revision": "5695f87a968dfb085c556d65730e58aa",
