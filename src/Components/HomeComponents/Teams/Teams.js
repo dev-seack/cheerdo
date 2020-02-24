@@ -23,7 +23,7 @@ class Teams extends React.Component {
     return (
       <Aux>
         <SectionHeadline headline="Wähle dein TEAM">
-          Wir haben in den Bereichen Cheerleading und Cheerdance Teams, in 3
+          Wir haben in den Bereichen Cheerleading und Cheerdance Teams in 3
           verschiedenen Altersgruppen.
         </SectionHeadline>
         <div className="TeamContainer">
