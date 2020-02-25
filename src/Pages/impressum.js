@@ -16,7 +16,7 @@ const Impressum = props => {
             <p>Vorstand:</p>
             <p>Leonie Langkabel , 1. Vorsitzende</p>
             <p>Kirsten Lorenzo , 2. Vorsitzende</p>
-            <p>Elisabete Santos Lopez , Kassenwart</p>
+            <p>Elisabete Santos Lopez , Kassenwärtin</p>
           </li>
           <li>
             <p>Angemeldet im Vereinsregister Dortmund VR-Nr. 6454 Finanzamt</p>
