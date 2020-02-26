@@ -52,7 +52,7 @@ class Teams extends React.Component {
           <Member
             imageSource={silverspiritImage}
             carouselPosition="Front Right"
-            name="Silver Spirit"
+            name="Silver Spirit Dancer"
             category="Cheerdancer"
             age="16 - ∞"
           />
