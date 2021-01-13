@@ -18,7 +18,7 @@ const Home = props => {
       {/* <Aux maxContainer>
         <News />
       </Aux> */}
-      <InstagramFeed />
+      {/* <InstagramFeed /> */}
       <Aux maxContainer>
         <Trainingsplan />
         <ContactForm />
