@@ -36,12 +36,6 @@ class Trainingsplan extends React.Component {
         ],
         tuesday: [
           {
-            team: "Dancing Smarties",
-            time: "17:00 - 19:00",
-            location:
-              "Sporthalle Gertrud Bäumer Realschule Erwinstr. Ecke Schaeffelstr."
-          },
-          {
             team: "Silver Spirit Dancer",
             time: "19:00 - 21:30",
             location:
@@ -68,12 +62,6 @@ class Trainingsplan extends React.Component {
           }
         ],
         thursday: [
-          {
-            team: "Dancing Smarties",
-            time: "17:00 - 19:00",
-            location:
-              "Sporthalle Gertrud Bäumer Realschule Erwinstr. Ecke Schaeffelstr."
-          },
           {
             team: "Silver Spirit Dancer",
             time: "19:00 - 21:30",

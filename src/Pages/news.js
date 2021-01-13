@@ -15,7 +15,7 @@ const NewsOverview = props => {
 
   return (
     <Aux isContentContainer maxContainer>
-      <SectionHeadline headline="Termine">
+      <SectionHeadline headline="News">
         <ApointmentOverview></ApointmentOverview>
       </SectionHeadline>
       {/* <SectionHeadline headline="Neues von UCS">

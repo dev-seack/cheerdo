@@ -5,7 +5,8 @@ import { Aux } from "../hoc/_aux";
 const ApointmentOverview = props => {
   return (
     <Aux>
-      <table>
+      <p>Leider findet aufgrund der aktuellen Situation mit COVID-19 derzeit kein Präsenztraining statt. Unsere Trainer ermöglichen unseren Mitgliedern derweil Trainingsalternativen über Online Plattformen, Challenges, Wochenaufgaben etc. Anfragen für zukünftige Probetrainings sind weiterhin möglich! Sonstige Termine für die kommende Saison sind derzeit noch nicht vorhersehbar. Wir informieren euch bei Änderungen.</p>
+      {/* <table>
         <tr>
           <th>Wann?</th>
           <th>Was?</th>
@@ -33,7 +34,7 @@ const ApointmentOverview = props => {
             in D&uuml;sseldorf
           </td>
         </tr>
-      </table>
+      </table> */}
     </Aux>
   );
 };
